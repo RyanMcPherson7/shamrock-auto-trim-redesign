@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+:root {
+  --color-primary: #ffffff;
+  --color-secondary: #000000;
+  --color-green: #4ad86b;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* ============================= */
+/*        Images Carousel        */
+/* ============================= */
+.carousel-body {
+  margin: 3rem auto;
+  width: 80vw;
+  height: 50vh;
+}
+
+.carousel-item {
+  background-color: #000000;
+}
+
+.carousel-overlay-image { 
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
+} 
