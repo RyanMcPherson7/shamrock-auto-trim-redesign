@@ -37,7 +37,7 @@ const imagesList = [
 const Header = () => {
   return (
     <>
-      <header>
+      <header id='home'>
         <h3>A Brief Overview</h3>
         <p>
           Hi! We are a <span className='special'> family owned business</span>
@@ -96,11 +96,11 @@ const Header = () => {
           </li>
         </ul>
 
-        {/* <div id='scroll-down-button-wrapper'>
-          <a href='#about-us' id='scroll-down-button'>
+        <div id='scroll-down-button-wrapper'>
+          <a href='#about' id='scroll-down-button'>
             <FaArrowAltCircleDown  />
           </a>
-        </div> */}
+        </div>
       </header>
     </>
   );

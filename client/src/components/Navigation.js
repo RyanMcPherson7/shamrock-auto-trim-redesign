@@ -18,8 +18,8 @@ const Navigation = () => {
         <Navbar.Toggle id='navbar-toggle'/>
         <Navbar.Collapse>
           <Nav>
-            <Nav.Link href='index.html'>Home</Nav.Link>
-            <Nav.Link href='index.html'>About</Nav.Link>
+            <Nav.Link href='#home'>Home</Nav.Link>
+            <Nav.Link href='#about'>About</Nav.Link>
             <NavDropdown title='Services'>
               <NavDropdown.Item href='index.html'>
                 Convertible Tops

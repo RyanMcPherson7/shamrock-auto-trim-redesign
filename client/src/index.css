@@ -10,6 +10,10 @@
   padding: 0;
 }
 
+html {
+  /* padding: 1rem 1rem 0; */
+}
+
 a {
   text-decoration: none;
   color: var(--color-primary);
@@ -22,6 +26,29 @@ li {
 .special {
   color: var(--color-green);
   font-weight: bold;
+}
+
+/* ============================= */
+/*        Images Carousel        */
+/* ============================= */
+.carousel-body {
+  margin: 1rem auto;
+}
+
+.carousel-item {
+  background-color: #000000;
+}
+
+.carousel-overlay-image {
+  height: 30vh;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+.carousel-image-title {
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 /* ============================= */
@@ -53,7 +80,7 @@ header {
 }
 
 header h3 {
-  margin-top: 1rem;
+  margin: 1rem 0 0;
 }
 
 header p {
@@ -95,16 +122,16 @@ header li a:hover {
 }
 
 #scroll-down-button {
-  font-size: 3rem;
+  font-size: 2rem;
   position: absolute;
-  bottom: 8vh;
+  bottom: 4vh;
   color: var(--color-secondary);
   animation: up-and-down 2.5s ease-in-out infinite;
 }
 
 @keyframes up-and-down {
   50% {
-    transform: translateY(30px);
+    transform: translateY(20px);
   }
   100% {
     transform: translateY(0);
@@ -112,32 +139,40 @@ header li a:hover {
 }
 
 /* ============================= */
-/*        Images Carousel        */
+/*             About             */
 /* ============================= */
-.carousel-body {
-  margin: 1.5rem auto;
+#about {
+  padding: 1rem;
 }
 
-.carousel-item {
-  background-color: #000000;
+#about-title {
+  padding-top: 5.5rem;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
-.carousel-overlay-image {
-  height: 30vh;
-  background-position: center;
-  background-size: cover;
-  opacity: 0.6;
+.quote-block {
+  background-color: #dbdbdb;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
 }
 
-.carousel-image-title {
-  font-weight: bold;
-  font-size: 1.2rem;
+.quote-paragraph {
+  margin-bottom: 0.5rem;
+}
+
+.quote-author {
+  margin-bottom: 0;
+  font-style: italic;
 }
 
 /* ============================= */
 /*         Media Queries         */
 /* ============================= */
-@media (max-height: 750px) {
+@media (max-height: 840px) {
   #scroll-down-button-wrapper {
     display: none;
   }
