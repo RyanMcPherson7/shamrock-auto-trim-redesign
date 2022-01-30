@@ -1,5 +1,6 @@
 import Navigation from './components/Navigation'
 import Header from './components/Header'
+import About from './components/About';
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navigation />
       <Header />
+      <About />
     </>
   );
 }

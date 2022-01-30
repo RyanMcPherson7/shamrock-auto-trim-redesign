@@ -5,19 +5,47 @@ import {
   FaEnvelopeSquare,
   FaArrowAltCircleDown,
 } from 'react-icons/fa';
+import ImagesCarousel from './ImagesCarousel';
+
+const imagesList = [
+  {
+    image: './assets/car-test/car1.jpg',
+    title: 'Car 1',
+  },
+  {
+    image: './assets/car-test/car2.jpg',
+    title: 'Car 2',
+  },
+  {
+    image: './assets/car-test/car3.jpg',
+    title: 'Car 3',
+  },
+  {
+    image: './assets/car-test/car4.jpg',
+    title: 'Car 4',
+  },
+  {
+    image: './assets/car-test/car5.jpg',
+    title: 'Car 5',
+  },
+  {
+    image: './assets/car-test/car6.jpg',
+    title: 'Car 6',
+  },
+];
 
 const Header = () => {
   return (
     <>
       <header>
-        <h1>A Brief Overview</h1>
+        <h3>A Brief Overview</h3>
         <p>
           Hi! We are a <span className='special'> family owned business</span>
           &nbsp; specializing in automotive interiors and convertible tops&nbsp;
           <span className='special'>since 1968</span>. Have a look around!
         </p>
-
-        <h1>Visit Us</h1>
+        <ImagesCarousel imagesList={imagesList} />
+        <h3>Visit Us</h3>
         <p>
           <span className='special'>Location:</span> 2040 Northeast 154 Street,
           North Miami, Florida 33162 USA
@@ -27,7 +55,7 @@ const Header = () => {
           Friday
         </p>
 
-        <h1>Keep in Touch</h1>
+        <h3>Keep in Touch</h3>
         <ul>
           <li>
             <FaFlickr className='keep-in-touch-icon' /> View our Flickr photo
@@ -68,11 +96,11 @@ const Header = () => {
           </li>
         </ul>
 
-        <div id='scroll-down-button-wrapper'>
+        {/* <div id='scroll-down-button-wrapper'>
           <a href='#about-us' id='scroll-down-button'>
             <FaArrowAltCircleDown  />
           </a>
-        </div>
+        </div> */}
       </header>
     </>
   );

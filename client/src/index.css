@@ -49,15 +49,16 @@ li {
 /* ============================= */
 header {
   height: 100vh;
-  padding: 7rem 2rem 0;
+  padding: 5rem 1rem 0;
 }
 
-header h1 {
-  margin-top: 1.2rem;
+header h3 {
+  margin-top: 1rem;
 }
 
 header p {
   font-weight: 500;
+  margin-bottom: 0;
 }
 
 header ul {
@@ -114,9 +115,7 @@ header li a:hover {
 /*        Images Carousel        */
 /* ============================= */
 .carousel-body {
-  margin: 3rem auto;
-  width: 80vw;
-  height: 50vh;
+  margin: 1.5rem auto;
 }
 
 .carousel-item {
@@ -124,14 +123,15 @@ header li a:hover {
 }
 
 .carousel-overlay-image {
-  height: 50vh;
+  height: 30vh;
   background-position: center;
   background-size: cover;
   opacity: 0.6;
 }
 
 .carousel-image-title {
-  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 /* ============================= */
