@@ -1,7 +1,7 @@
 :root {
   --color-primary: #ffffff;
   --color-secondary: #212529;
-  --color-green: #198754;
+  --color-green: #06a77d;
 }
 
 * {
@@ -17,6 +17,11 @@ a {
 
 li {
   list-style: none;
+}
+
+.special {
+  color: var(--color-green);
+  font-weight: bold;
 }
 
 /* ============================= */
@@ -40,6 +45,72 @@ li {
 }
 
 /* ============================= */
+/*             Header            */
+/* ============================= */
+header {
+  height: 100vh;
+  padding: 7rem 2rem 0;
+}
+
+header h1 {
+  margin-top: 1.2rem;
+}
+
+header p {
+  font-weight: 500;
+}
+
+header ul {
+  padding: 0;
+}
+
+header li {
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  margin: 0.5rem 0;
+}
+
+header li a {
+  color: var(--color-green);
+  font-weight: bold;
+}
+
+header li a:hover {
+  color: var(--color-green);
+}
+
+.keep-in-touch-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.3rem;
+}
+
+#scroll-down-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#scroll-down-button {
+  font-size: 3rem;
+  position: absolute;
+  bottom: 8vh;
+  color: var(--color-secondary);
+  animation: up-and-down 2.5s ease-in-out infinite;
+}
+
+@keyframes up-and-down {
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* ============================= */
 /*        Images Carousel        */
 /* ============================= */
 .carousel-body {
@@ -52,35 +123,22 @@ li {
   background-color: #000000;
 }
 
-.carousel-overlay-image { 
+.carousel-overlay-image {
   height: 50vh;
   background-position: center;
   background-size: cover;
   opacity: 0.6;
-} 
+}
 
 .carousel-image-title {
   font-family: 'Poppins', sans-serif;
 }
 
-
-
-
-
-
 /* ============================= */
 /*         Media Queries         */
 /* ============================= */
-@media (min-width: 1000px) {
-  #mobile-nav {
+@media (max-height: 750px) {
+  #scroll-down-button-wrapper {
     display: none;
-  }
-
-  #mobile-toggle-menu {
-    display: none;
-  }
-
-  #desktop-nav {
-    display: flex;
   }
 }
