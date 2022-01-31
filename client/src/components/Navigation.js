@@ -37,13 +37,13 @@ const Navigation = () => {
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title='Projects'>
-              <NavDropdown.Item href='index.html'>
+              <NavDropdown.Item href='#2fast2furious-movie-cars'>
                 2Fast2Furious Movie Cars
               </NavDropdown.Item>
-              <NavDropdown.Item href='index.html'>
+              <NavDropdown.Item href='#lenny-kravitz-cadillac'>
                 Lenny Kravitz's Cadillac
               </NavDropdown.Item>
-              <NavDropdown.Item href='index.html'>
+              <NavDropdown.Item href='#nfl-chad-ochocinco-lamborghini'>
                 NFL Chad Ochocinco's Lamborghini
               </NavDropdown.Item>
               <NavDropdown.Item href='index.html'>

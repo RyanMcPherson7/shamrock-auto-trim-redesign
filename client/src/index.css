@@ -167,7 +167,7 @@ header li a:hover {
 }
 
 /* ============================= */
-/*            Services           */
+/*    Services and Projects      */
 /* ============================= */
 .service-wrapper {
   padding: 5.5rem 0 0;
@@ -193,7 +193,6 @@ header li a:hover {
   width: 16rem;
   margin: 0.7rem auto;
 }
-
 
 .purchase-button a {
   color: var(--color-primary);
