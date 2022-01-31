@@ -2,28 +2,36 @@ import ProjectBase from './ProjectBase';
 
 const imagesList = [
   {
-    image: './assets/car-test/car1.jpg',
-    title: 'Car 1',
+    image: './assets/projects-images/corporate-designs-images/corporate-1.jpg',
+    title: 'JL Audio Mustang leather interior',
   },
   {
-    image: './assets/car-test/car2.jpg',
-    title: 'Car 2',
+    image: './assets/projects-images/corporate-designs-images/corporate-2.jpg',
+    title: 'JL Audio CES Mustang',
   },
   {
-    image: './assets/car-test/car3.jpg',
-    title: 'Car 3',
+    image: './assets/projects-images/corporate-designs-images/corporate-3.jpg',
+    title: 'JL Audio Mustang leather dash',
   },
   {
-    image: './assets/car-test/car4.jpg',
-    title: 'Car 4',
+    image: './assets/projects-images/corporate-designs-images/corporate-4.jpeg',
+    title: 'Cigarette boat racing crew truck',
   },
   {
-    image: './assets/car-test/car5.jpg',
-    title: 'Car 5',
+    image: './assets/projects-images/corporate-designs-images/corporate-5.jpeg',
+    title: 'Cigarette embroidery read seat',
   },
   {
-    image: './assets/car-test/car6.jpg',
-    title: 'Car 6',
+    image: './assets/projects-images/corporate-designs-images/corporate-6.jpeg',
+    title: 'Cigarette crew truck front seats',
+  },
+  {
+    image: './assets/projects-images/corporate-designs-images/corporate-7.jpg',
+    title: 'Cigarette race team crew truck',
+  },
+  {
+    image: './assets/projects-images/corporate-designs-images/corporate-8.jpg',
+    title: 'Cigarette 2-tone upholstery',
   },
 ];
 

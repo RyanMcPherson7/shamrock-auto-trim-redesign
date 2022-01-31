@@ -2,28 +2,32 @@ import ProjectBase from './ProjectBase';
 
 const imagesList = [
   {
-    image: './assets/car-test/car1.jpg',
-    title: 'Car 1',
+    image: './assets/projects-images/nfl-ronnie-brown-chevy-images/brown-1.jpg',
+    title: 'Fabricated new door panels',
   },
   {
-    image: './assets/car-test/car2.jpg',
-    title: 'Car 2',
+    image: './assets/projects-images/nfl-ronnie-brown-chevy-images/brown-2.jpg',
+    title: 'Original white interior',
   },
   {
-    image: './assets/car-test/car3.jpg',
-    title: 'Car 3',
+    image: './assets/projects-images/nfl-ronnie-brown-chevy-images/brown-3.jpg',
+    title: 'New Cloth Convertible Top',
   },
   {
-    image: './assets/car-test/car4.jpg',
-    title: 'Car 4',
+    image: './assets/projects-images/nfl-ronnie-brown-chevy-images/brown-4.jpg',
+    title: 'Ronnie Brown going downtown',
   },
   {
-    image: './assets/car-test/car5.jpg',
-    title: 'Car 5',
+    image: './assets/projects-images/nfl-ronnie-brown-chevy-images/brown-5.jpg',
+    title: 'Black welt, embroidered numbers, leather',
   },
   {
-    image: './assets/car-test/car6.jpg',
-    title: 'Car 6',
+    image: './assets/projects-images/nfl-ronnie-brown-chevy-images/brown-6.jpg',
+    title: 'Finished trunk with chrome and carpet',
+  },
+  {
+    image: './assets/projects-images/nfl-ronnie-brown-chevy-images/brown-7.jpg',
+    title: 'A red canvas boot finishes the car with the top down',
   },
 ];
 

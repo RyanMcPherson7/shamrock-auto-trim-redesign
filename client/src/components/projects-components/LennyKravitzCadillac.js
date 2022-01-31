@@ -2,28 +2,29 @@ import ProjectBase from './ProjectBase';
 
 const imagesList = [
   {
-    image: './assets/car-test/car1.jpg',
-    title: 'Car 1',
+    image:
+      './assets/projects-images/lenny-kravitz-cadillac-images/lenny-kravitz-1.jpg',
+    title: 'Lenny Kravitz 1',
   },
   {
-    image: './assets/car-test/car2.jpg',
-    title: 'Car 2',
+    image:
+      './assets/projects-images/lenny-kravitz-cadillac-images/lenny-kravitz-2.jpg',
+    title: 'Lenny Kravitz 2',
   },
   {
-    image: './assets/car-test/car3.jpg',
-    title: 'Car 3',
+    image:
+      './assets/projects-images/lenny-kravitz-cadillac-images/lenny-kravitz-3.jpg',
+    title: 'Lenny Kravitz 3',
   },
   {
-    image: './assets/car-test/car4.jpg',
-    title: 'Car 4',
+    image:
+      './assets/projects-images/lenny-kravitz-cadillac-images/lenny-kravitz-4.jpg',
+    title: 'Lenny Kravitz 4',
   },
   {
-    image: './assets/car-test/car5.jpg',
-    title: 'Car 5',
-  },
-  {
-    image: './assets/car-test/car6.jpg',
-    title: 'Car 6',
+    image:
+      './assets/projects-images/lenny-kravitz-cadillac-images/lenny-kravitz-5.jpg',
+    title: 'Lenny Kravitz 5',
   },
 ];
 

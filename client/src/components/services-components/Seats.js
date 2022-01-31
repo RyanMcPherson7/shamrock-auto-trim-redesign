@@ -3,15 +3,15 @@ import ImagesCarousel from '../ImagesCarousel';
 const imagesList = [
   {
     image: './assets/services-images/seats-images/seat-1.jpg',
-    title: 'Seats 1',
+    title: '2-tone leather Lamborghini seats',
   },
   {
     image: './assets/services-images/seats-images/seat-2.jpg',
-    title: 'Seats 2',
+    title: 'Leather Dodge Viper seats',
   },
   {
     image: './assets/services-images/seats-images/seat-3.jpg',
-    title: 'Seats 3',
+    title: 'Leather Honda Element seats',
   },
   {
     image: './assets/services-images/seats-images/seat-4.jpg',
@@ -19,23 +19,23 @@ const imagesList = [
   },
   {
     image: './assets/services-images/seats-images/seat-5.jpg',
-    title: 'Seats 5',
+    title: 'Vinyl with suede Corvette seats',
   },
   {
     image: './assets/services-images/seats-images/seat-6.jpg',
-    title: 'Seats 6',
+    title: 'Leather Honda s2000 seats',
   },
   {
     image: './assets/services-images/seats-images/seat-7.jpg',
-    title: 'Seats 7',
+    title: 'Street Rod leather seats',
   },
   {
     image: './assets/services-images/seats-images/seat-8.jpg',
-    title: 'Seats 8',
+    title: '2-tone leather Lamborghini seats',
   },
   {
     image: './assets/services-images/seats-images/seat-9.jpg',
-    title: 'Seats 9',
+    title: 'Third row Hummer seat',
   },
   {
     image: './assets/services-images/seats-images/seat-10.jpg',
