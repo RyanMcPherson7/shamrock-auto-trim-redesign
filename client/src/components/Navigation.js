@@ -21,15 +21,15 @@ const Navigation = () => {
             <Nav.Link href='#home'>Home</Nav.Link>
             <Nav.Link href='#about'>About</Nav.Link>
             <NavDropdown title='Services'>
-              <NavDropdown.Item href='index.html'>
+              <NavDropdown.Item href='#convertible-tops'>
                 Convertible Tops
               </NavDropdown.Item>
-              <NavDropdown.Item href='index.html'>Headliners</NavDropdown.Item>
-              <NavDropdown.Item href='index.html'>Seats</NavDropdown.Item>
-              <NavDropdown.Item href='index.html'>
+              <NavDropdown.Item href='#headliners'>Headliners</NavDropdown.Item>
+              <NavDropdown.Item href='#seats'>Seats</NavDropdown.Item>
+              <NavDropdown.Item href='#motorcycle-seats'>
                 Motorcycle Seats
               </NavDropdown.Item>
-              <NavDropdown.Item href='index.html'>
+              <NavDropdown.Item href='#lamborghini-tonneau-cover'>
                 Lamborghini Tonneau Cover
               </NavDropdown.Item>
               <NavDropdown.Item href='index.html'>

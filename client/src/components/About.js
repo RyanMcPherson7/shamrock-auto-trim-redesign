@@ -22,29 +22,29 @@ const imagesList = [
 const About = () => {
   return (
     <>
-      <div id='about'>
-        <h1 id='about-title'>Our Story</h1>
+      <div id='about' className='section-wrapper'>
+        <h1 className='section-title'>Our Story</h1>
         <div className='quote-block'>
           <p className='quote-paragraph'>
-            "Shamrock Auto Trim is a small{' '}
+            "Shamrock Auto Trim is a small&nbsp;
             <span className='special'>family business</span> founded by my
             father <span className='special'>Dan McPherson</span> in 1968. He's
-            a master craftsman who stills works a full day. My mother{' '}
+            a master craftsman who stills works a full day. My mother&nbsp;
             <span className='special'>Kathy</span> answers the phone, gives
             estimates, makes lunch, runs the office, and keeps us all in line.
             My brother <span className='special'>Lee</span> is the shop foreman
             who always knows what's going on with each job. My whole family was
-            born and raised in <span className='special'>Miami</span>."
+            born and raised in <span className='special'>Miami</span>.
           </p>
           <p className='quote-paragraph'>
-            "Recently, our previous mascot{' '}
+            Recently, our previous mascot&nbsp;
             <span className='special'>Fraiser</span>, a Jack Russel terrier,
-            sadly passed away. Fraiser was a{' '}
+            sadly passed away. Fraiser was a&nbsp;
             <span className='special'>customer favorite</span> who came to work
             with us every day for 17 years. Fraiser even received Christmas
-            cards from customers and some would{' '}
+            cards from customers and some would&nbsp;
             <span className='special'>stop in just to say hello</span> to him or
-            bring him a dog biscuit. Today, we have a cockapoo named{' '}
+            bring him a dog biscuit. Today, we have a cockapoo named&nbsp;
             <span className='special'>Bella</span> who loves greeting
             customers!"
           </p>
@@ -59,9 +59,9 @@ const About = () => {
             "Our business is decorated with antique signs and neon clocks. Many
             of our customers have told us that our workshop feels like they have
             been transported back in time! Over the years, we've had a few
-            antique cars, such as a{' '}
-            <span className='special'>1935 Ford truck</span>,{' '}
-            <span className='special'>1954 Packard convertible</span>,{' '}
+            antique cars, such as a&nbsp;
+            <span className='special'>1935 Ford truck</span>,&nbsp;
+            <span className='special'>1954 Packard convertible</span>,&nbsp;
             <span className='special'>1936 Ford Phaeton convertible</span>, and
             currently a <span className='special'>2002 Mini Cooper</span>. We
             try to keep current with the changing trends by attending SEMA,
@@ -80,11 +80,11 @@ const About = () => {
           <p className='quote-paragraph'>
             "Some potential customers may be fearful when they see the variety
             and extent of our <span className='special'>custom work</span>. I
-            can tell you that we are{' '}
+            can tell you that we are&nbsp;
             <span className='special'>comfortable</span> working on a Toyota
             Camry as well a brand new Ferrari. The common denominator is that
-            all customers and jobs are treated with the{' '}
-            <span className='special'>same level of respect</span> and{' '}
+            all customers and jobs are treated with the&nbsp;
+            <span className='special'>same level of respect</span> and&nbsp;
             <span className='special'>attention to detail</span>. We can build a
             <span className='special'>complete interior</span>, including new
             seat upholstery, headliner, door panels, carpet, convertible top,

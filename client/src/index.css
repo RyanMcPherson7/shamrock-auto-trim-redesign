@@ -10,8 +10,8 @@
   padding: 0;
 }
 
-html {
-  /* padding: 1rem 1rem 0; */
+p {
+  font-weight: 500;
 }
 
 a {
@@ -26,6 +26,16 @@ li {
 .special {
   color: var(--color-green);
   font-weight: bold;
+}
+
+.section-wrapper {
+  padding: 5.5rem 1rem 1rem;
+}
+
+.section-title {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 /* ============================= */
@@ -84,7 +94,6 @@ header h3 {
 }
 
 header p {
-  font-weight: 500;
   margin-bottom: 0;
 }
 
@@ -141,22 +150,10 @@ header li a:hover {
 /* ============================= */
 /*             About             */
 /* ============================= */
-#about {
-  padding: 1rem;
-}
-
-#about-title {
-  padding-top: 5.5rem;
-  margin-bottom: 1rem;
-  font-size: 2.5rem;
-  text-align: center;
-}
-
 .quote-block {
   background-color: #dbdbdb;
   padding: 1rem;
   border-radius: 1rem;
-  font-weight: 500;
   margin-bottom: 1rem;
 }
 
@@ -167,6 +164,18 @@ header li a:hover {
 .quote-author {
   margin-bottom: 0;
   font-style: italic;
+}
+
+/* ============================= */
+/*            Services           */
+/* ============================= */
+.service-wrapper {
+  padding: 5.5rem 0 0;
+}
+
+.service-title {
+  text-align: center;
+  border-bottom: solid 0.3rem var(--color-green);
 }
 
 /* ============================= */
