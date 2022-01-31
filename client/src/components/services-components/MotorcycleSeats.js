@@ -31,11 +31,11 @@ const MotorcycleSeats = () => {
   return (
     <>
       <div className='service-wrapper' id='motorcycle-seats'>
-        <h3 className='service-title'>Motorcycle Seats</h3>
-        <p>
-          Shamrock builds <span className='special'>custom and original</span>&nbsp;
-          factory motorcycle seats
-        </p>
+        <h2 className='service-title'>Motorcycle Seats</h2>
+        <h4>
+          <span className='special'>Our job: </span>
+          Shamrock builds custom and original factory motorcycle seats
+        </h4>
         <ImagesCarousel imagesList={imagesList} />
       </div>
     </>

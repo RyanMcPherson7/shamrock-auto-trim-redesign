@@ -31,16 +31,13 @@ const LamborghiniTonneauCover = () => {
   return (
     <>
       <div className='service-wrapper' id='lamborghini-tonneau-cover'>
-        <h3 className='service-title'>Lamborghini Tonneau Cover</h3>
-
-        <p>
-          Shamrock can build the&nbsp;
-          <span className='special'>
-            Lamborghini Murcielago Roadster Stay-Fast Tonneau Soft Parking
-            Covers
-          </span>
-          .
-        </p>
+        <h2 className='service-title'>Lamborghini Tonneau Cover</h2>
+        <h4>
+          <span className='special'>Our job: </span>
+          Shamrock can build the&nbsp; Lamborghini Murcielago Roadster Stay-Fast
+          Tonneau Soft Parking Covers .
+        </h4>
+        <ImagesCarousel imagesList={imagesList} />
         <div className='quote-block'>
           <p className='quote-paragraph'>
             "When Lamborghini built the Murcielago Roadster, they had a single
@@ -92,8 +89,6 @@ const LamborghiniTonneauCover = () => {
             operations
           </p>
         </div>
-        <p></p>
-        <ImagesCarousel imagesList={imagesList} />
       </div>
     </>
   );

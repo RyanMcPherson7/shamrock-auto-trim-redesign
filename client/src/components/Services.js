@@ -3,6 +3,7 @@ import Headliners from "./services-components/Headliners";
 import Seats from "./services-components/Seats";
 import MotorcycleSeats from "./services-components/MotorcycleSeats";
 import LamborghiniTonneauCover from "./services-components/LamborghiniTonneauCover";
+import MotorcycleHeatShields from "./services-components/MotorcycleHeatShields";
 
 const Services = () => {
   return (
@@ -14,6 +15,7 @@ const Services = () => {
         <Seats />
         <MotorcycleSeats />
         <LamborghiniTonneauCover />
+        <MotorcycleHeatShields />
       </div>
     </>
   );

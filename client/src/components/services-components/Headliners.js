@@ -31,14 +31,13 @@ const Headliners = () => {
   return (
     <>
       <div className='service-wrapper' id='headliners'>
-        <h3 className='service-title'>Headliners</h3>
-        <p>
-          Shamrock can&nbsp;
-          <span className='special'>
-            remove your headliner board and recover it
-          </span>&nbsp;
-          with new material in 1 day.
-        </p>
+        <h2 className='service-title'>Headliners</h2>
+        <h4>
+          <span className='special'>Our job: </span>
+          Shamrock can&nbsp; remove your headliner board and recover it with new
+          material in 1 day.
+        </h4>
+        <ImagesCarousel imagesList={imagesList} />
 
         <div className='quote-block'>
           <p className='quote-paragraph'>
@@ -59,8 +58,8 @@ const Headliners = () => {
             finished material and foam to the hard headliner board.
           </p>
           <p className='quote-paragraph'>
-            Shamrock stocks the <span className='special'>new materials</span>&nbsp;
-            and in most cases, you can&nbsp;
+            Shamrock stocks the <span className='special'>new materials</span>
+            &nbsp; and in most cases, you can&nbsp;
             <span className='special'>
               drop off your car in the morning and pick it up in the afternoon
             </span>
@@ -75,7 +74,6 @@ const Headliners = () => {
             operations
           </p>
         </div>
-        <ImagesCarousel imagesList={imagesList} />
       </div>
     </>
   );

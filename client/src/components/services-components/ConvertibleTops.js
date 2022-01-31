@@ -31,14 +31,12 @@ const ConvertibleTops = () => {
   return (
     <>
       <div className='service-wrapper' id='convertible-tops'>
-        <h3 className='service-title'>Convertible Tops</h3>
-        <p>
-          Shamrock can&nbsp;
-          <span className='special'>
-            replace your convertible top or broken rear glass
-          </span>
-          .
-        </p>
+        <h2 className='service-title'>Convertible Tops</h2>
+        <h4>
+          <span className='special'>Our job: </span>
+          Shamrock can replace your convertible top or broken rear glass.
+        </h4>
+        <ImagesCarousel imagesList={imagesList} />
         <div className='quote-block'>
           <p className='quote-paragraph'>
             "We are comfortable working with an&nbsp;
@@ -60,7 +58,6 @@ const ConvertibleTops = () => {
             operations
           </p>
         </div>
-        <ImagesCarousel imagesList={imagesList} />
       </div>
     </>
   );

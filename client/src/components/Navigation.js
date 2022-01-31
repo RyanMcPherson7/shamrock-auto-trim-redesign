@@ -32,8 +32,8 @@ const Navigation = () => {
               <NavDropdown.Item href='#lamborghini-tonneau-cover'>
                 Lamborghini Tonneau Cover
               </NavDropdown.Item>
-              <NavDropdown.Item href='index.html'>
-                Motorcycle Heat Shield
+              <NavDropdown.Item href='#motorcycle-heat-shields'>
+                Motorcycle Heat Shields
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title='Projects'>

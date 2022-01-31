@@ -33,9 +33,9 @@ const Seats = () => {
       <div className='service-wrapper' id='seats'>
         <h3 className='service-title'>Seats</h3>
         <p>
-          Shamrock can&nbsp;
-          <span className='special'>duplicate your factory upholstery</span>&nbsp;
-          using matching vinyl, cloth, suede, or leather.
+          <span className='special'>Our job: </span>
+          Shamrock can duplicate your factory upholstery using matching vinyl,
+          cloth, suede, or leather.
         </p>
         <ImagesCarousel imagesList={imagesList} />
       </div>
