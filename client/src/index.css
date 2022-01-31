@@ -50,10 +50,10 @@ li {
 }
 
 .carousel-overlay-image {
-  height: 30vh;
+  height: 15rem;
   background-position: center;
   background-size: cover;
-  opacity: 0.7;
+  opacity: 0.75;
 }
 
 .carousel-image-title {

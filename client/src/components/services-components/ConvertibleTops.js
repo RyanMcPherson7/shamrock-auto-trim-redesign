@@ -2,28 +2,48 @@ import ImagesCarousel from '../ImagesCarousel';
 
 const imagesList = [
   {
-    image: './assets/car-test/car1.jpg',
-    title: 'Car 1',
+    image: './assets/project-images/convertible-tops-images/convertible-top-1.jpg',
+    title: 'Convertible top 1',
   },
   {
-    image: './assets/car-test/car2.jpg',
-    title: 'Car 2',
+    image: './assets/project-images/convertible-tops-images/convertible-top-2.jpg',
+    title: 'Convertible top 2',
   },
   {
-    image: './assets/car-test/car3.jpg',
-    title: 'Car 3',
+    image: './assets/project-images/convertible-tops-images/convertible-top-3.jpg',
+    title: 'Convertible top 3',
   },
   {
-    image: './assets/car-test/car4.jpg',
-    title: 'Car 4',
+    image: './assets/project-images/convertible-tops-images/convertible-top-4.jpg',
+    title: 'Convertible top 4',
   },
   {
-    image: './assets/car-test/car5.jpg',
-    title: 'Car 5',
+    image: './assets/project-images/convertible-tops-images/convertible-top-5.jpg',
+    title: 'Convertible top 5',
   },
   {
-    image: './assets/car-test/car6.jpg',
-    title: 'Car 6',
+    image: './assets/project-images/convertible-tops-images/convertible-top-6.jpg',
+    title: 'Convertible top 6',
+  },
+  {
+    image: './assets/project-images/convertible-tops-images/convertible-top-7.jpg',
+    title: 'Convertible top 7',
+  },
+  {
+    image: './assets/project-images/convertible-tops-images/convertible-top-8.jpg',
+    title: 'Convertible top 8',
+  },
+  {
+    image: './assets/project-images/convertible-tops-images/convertible-top-9.jpg',
+    title: 'Convertible top 9',
+  },
+  {
+    image: './assets/project-images/convertible-tops-images/convertible-top-10.jpg',
+    title: 'Convertible top 10',
+  },
+  {
+    image: './assets/project-images/convertible-tops-images/convertible-top-11.jpg',
+    title: 'Convertible top 11',
   },
 ];
 

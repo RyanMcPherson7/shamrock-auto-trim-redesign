@@ -2,20 +2,24 @@ import ImagesCarousel from './ImagesCarousel';
 
 const imagesList = [
   {
-    image: './assets/about/shamrock-logo.jpg',
+    image: './assets/about-images/shamrock-logo.jpg',
     title: 'Our logo created in 1968',
   },
   {
-    image: './assets/about/shop-car-1.jpg',
+    image: './assets/about-images/shop-car-1.jpg',
     title: 'A cool car we worked on',
   },
   {
-    image: './assets/about/shop-car-2.jpg',
+    image: './assets/about-images/shop-car-2.jpg',
     title: 'A brief flash to the past',
   },
   {
-    image: './assets/about/office.jpg',
+    image: './assets/about-images/office.jpg',
     title: 'Our office interior',
+  },
+  {
+    image: './assets/about-images/dan-mcpherson.jpg',
+    title: 'Dan McPherson, founder of Shamrock Auto Trim',
   },
 ];
 
