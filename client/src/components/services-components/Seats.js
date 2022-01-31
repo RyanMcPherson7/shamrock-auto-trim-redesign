@@ -2,28 +2,64 @@ import ImagesCarousel from '../ImagesCarousel';
 
 const imagesList = [
   {
-    image: './assets/car-test/car1.jpg',
-    title: 'Car 1',
+    image: './assets/services-images/seats-images/seat-1.jpg',
+    title: 'Seats 1',
   },
   {
-    image: './assets/car-test/car2.jpg',
-    title: 'Car 2',
+    image: './assets/services-images/seats-images/seat-2.jpg',
+    title: 'Seats 2',
   },
   {
-    image: './assets/car-test/car3.jpg',
-    title: 'Car 3',
+    image: './assets/services-images/seats-images/seat-3.jpg',
+    title: 'Seats 3',
   },
   {
-    image: './assets/car-test/car4.jpg',
-    title: 'Car 4',
+    image: './assets/services-images/seats-images/seat-4.jpg',
+    title: 'Seats 4',
   },
   {
-    image: './assets/car-test/car5.jpg',
-    title: 'Car 5',
+    image: './assets/services-images/seats-images/seat-5.jpg',
+    title: 'Seats 5',
   },
   {
-    image: './assets/car-test/car6.jpg',
-    title: 'Car 6',
+    image: './assets/services-images/seats-images/seat-6.jpg',
+    title: 'Seats 6',
+  },
+  {
+    image: './assets/services-images/seats-images/seat-7.jpg',
+    title: 'Seats 7',
+  },
+  {
+    image: './assets/services-images/seats-images/seat-8.jpg',
+    title: 'Seats 8',
+  },
+  {
+    image: './assets/services-images/seats-images/seat-9.jpg',
+    title: 'Seats 9',
+  },
+  {
+    image: './assets/services-images/seats-images/seat-10.jpg',
+    title: 'Seats 10',
+  },
+  {
+    image: './assets/services-images/seats-images/seat-11.jpg',
+    title: 'Seats 11',
+  },
+  {
+    image: './assets/services-images/seats-images/seat-12.jpg',
+    title: 'Seats 12',
+  },
+  {
+    image: './assets/services-images/seats-images/seat-13.jpg',
+    title: 'Seats 13',
+  },
+  {
+    image: './assets/services-images/seats-images/seat-14.jpg',
+    title: 'Seats 14',
+  },
+  {
+    image: './assets/services-images/seats-images/seat-15.jpg',
+    title: 'Seats 15',
   },
 ];
 

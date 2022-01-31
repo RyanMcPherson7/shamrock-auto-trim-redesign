@@ -2,47 +2,47 @@ import ImagesCarousel from '../ImagesCarousel';
 
 const imagesList = [
   {
-    image: './assets/project-images/convertible-tops-images/convertible-top-1.jpg',
+    image: './assets/services-images/convertible-tops-images/convertible-top-1.jpg',
     title: 'Convertible top 1',
   },
   {
-    image: './assets/project-images/convertible-tops-images/convertible-top-2.jpg',
+    image: './assets/services-images/convertible-tops-images/convertible-top-2.jpg',
     title: 'Convertible top 2',
   },
   {
-    image: './assets/project-images/convertible-tops-images/convertible-top-3.jpg',
+    image: './assets/services-images/convertible-tops-images/convertible-top-3.jpg',
     title: 'Convertible top 3',
   },
   {
-    image: './assets/project-images/convertible-tops-images/convertible-top-4.jpg',
+    image: './assets/services-images/convertible-tops-images/convertible-top-4.jpg',
     title: 'Convertible top 4',
   },
   {
-    image: './assets/project-images/convertible-tops-images/convertible-top-5.jpg',
+    image: './assets/services-images/convertible-tops-images/convertible-top-5.jpg',
     title: 'Convertible top 5',
   },
   {
-    image: './assets/project-images/convertible-tops-images/convertible-top-6.jpg',
+    image: './assets/services-images/convertible-tops-images/convertible-top-6.jpg',
     title: 'Convertible top 6',
   },
   {
-    image: './assets/project-images/convertible-tops-images/convertible-top-7.jpg',
+    image: './assets/services-images/convertible-tops-images/convertible-top-7.jpg',
     title: 'Convertible top 7',
   },
   {
-    image: './assets/project-images/convertible-tops-images/convertible-top-8.jpg',
+    image: './assets/services-images/convertible-tops-images/convertible-top-8.jpg',
     title: 'Convertible top 8',
   },
   {
-    image: './assets/project-images/convertible-tops-images/convertible-top-9.jpg',
+    image: './assets/services-images/convertible-tops-images/convertible-top-9.jpg',
     title: 'Convertible top 9',
   },
   {
-    image: './assets/project-images/convertible-tops-images/convertible-top-10.jpg',
+    image: './assets/services-images/convertible-tops-images/convertible-top-10.jpg',
     title: 'Convertible top 10',
   },
   {
-    image: './assets/project-images/convertible-tops-images/convertible-top-11.jpg',
+    image: './assets/services-images/convertible-tops-images/convertible-top-11.jpg',
     title: 'Convertible top 11',
   },
 ];

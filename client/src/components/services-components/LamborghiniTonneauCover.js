@@ -2,28 +2,19 @@ import ImagesCarousel from '../ImagesCarousel';
 
 const imagesList = [
   {
-    image: './assets/car-test/car1.jpg',
-    title: 'Car 1',
+    image:
+      './assets/services-images/lamborghini-tonneau-cover-images/lamborghini-tonneau-cover-1.jpg',
+    title: 'Lamborghini Tonneau Cover 1',
   },
   {
-    image: './assets/car-test/car2.jpg',
-    title: 'Car 2',
+    image:
+      './assets/services-images/lamborghini-tonneau-cover-images/lamborghini-tonneau-cover-2.jpg',
+    title: 'Lamborghini Tonneau Cover 2',
   },
   {
-    image: './assets/car-test/car3.jpg',
-    title: 'Car 3',
-  },
-  {
-    image: './assets/car-test/car4.jpg',
-    title: 'Car 4',
-  },
-  {
-    image: './assets/car-test/car5.jpg',
-    title: 'Car 5',
-  },
-  {
-    image: './assets/car-test/car6.jpg',
-    title: 'Car 6',
+    image:
+      './assets/services-images/lamborghini-tonneau-cover-images/lamborghini-tonneau-cover-3.jpg',
+    title: 'Lamborghini Tonneau Cover 3',
   },
 ];
 
@@ -38,6 +29,15 @@ const LamborghiniTonneauCover = () => {
           Tonneau Soft Parking Covers .
         </h4>
         <ImagesCarousel imagesList={imagesList} />
+        <button className='purchase-button'>
+          <a
+            href='https://www.paypal.com/webapps/shoppingcart?flowlogging_id=f811635ae4630&mfid=1643667441055_f811635ae4630#/checkout/openButton'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Buy Cover ($900.00)
+          </a>
+        </button>
         <div className='quote-block'>
           <p className='quote-paragraph'>
             "When Lamborghini built the Murcielago Roadster, they had a single

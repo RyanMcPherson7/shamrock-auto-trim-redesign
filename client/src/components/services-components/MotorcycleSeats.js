@@ -2,28 +2,74 @@ import ImagesCarousel from '../ImagesCarousel';
 
 const imagesList = [
   {
-    image: './assets/car-test/car1.jpg',
-    title: 'Car 1',
+    image:
+      './assets/services-images/motorcycle-seats-images/motorcycle-seat-1.jpg',
+    title: 'Motorcycle Seat 1',
   },
   {
-    image: './assets/car-test/car2.jpg',
-    title: 'Car 2',
+    image:
+      './assets/services-images/motorcycle-seats-images/motorcycle-seat-2.jpg',
+    title: 'Motorcycle Seat 2',
   },
   {
-    image: './assets/car-test/car3.jpg',
-    title: 'Car 3',
+    image:
+      './assets/services-images/motorcycle-seats-images/motorcycle-seat-3.jpg',
+    title: 'Motorcycle Seat 3',
   },
   {
-    image: './assets/car-test/car4.jpg',
-    title: 'Car 4',
+    image:
+      './assets/services-images/motorcycle-seats-images/motorcycle-seat-4.jpg',
+    title: 'Motorcycle Seat 4',
   },
   {
-    image: './assets/car-test/car5.jpg',
-    title: 'Car 5',
+    image:
+      './assets/services-images/motorcycle-seats-images/motorcycle-seat-5.jpg',
+    title: 'Motorcycle Seat 5',
   },
   {
-    image: './assets/car-test/car6.jpg',
-    title: 'Car 6',
+    image:
+      './assets/services-images/motorcycle-seats-images/motorcycle-seat-6.jpg',
+    title: 'Motorcycle Seat 6',
+  },
+  {
+    image:
+      './assets/services-images/motorcycle-seats-images/motorcycle-seat-7.jpg',
+    title: 'Motorcycle Seat 7',
+  },
+  {
+    image:
+      './assets/services-images/motorcycle-seats-images/motorcycle-seat-8.jpg',
+    title: 'Motorcycle Seat 8',
+  },
+  {
+    image:
+      './assets/services-images/motorcycle-seats-images/motorcycle-seat-9.jpg',
+    title: 'Motorcycle Seat 9',
+  },
+  {
+    image:
+      './assets/services-images/motorcycle-seats-images/motorcycle-seat-10.jpg',
+    title: 'Motorcycle Seat 10',
+  },
+  {
+    image:
+      './assets/services-images/motorcycle-seats-images/motorcycle-seat-11.jpg',
+    title: 'Motorcycle Seat 11',
+  },
+  {
+    image:
+      './assets/services-images/motorcycle-seats-images/motorcycle-seat-12.jpg',
+    title: 'Motorcycle Seat 12',
+  },
+  {
+    image:
+      './assets/services-images/motorcycle-seats-images/motorcycle-seat-13.jpg',
+    title: 'Motorcycle Seat 13',
+  },
+  {
+    image:
+      './assets/services-images/motorcycle-seats-images/motorcycle-seat-14.jpg',
+    title: 'Motorcycle Seat 14',
   },
 ];
 
