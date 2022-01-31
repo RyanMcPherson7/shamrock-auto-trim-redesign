@@ -46,13 +46,13 @@ const Navigation = () => {
               <NavDropdown.Item href='#nfl-chad-ochocinco-lamborghini'>
                 NFL Chad Ochocinco's Lamborghini
               </NavDropdown.Item>
-              <NavDropdown.Item href='index.html'>
+              <NavDropdown.Item href='#nfl-ronnie-brown-chevy'>
                 NFL Ronnie Brown's Chevy
               </NavDropdown.Item>
-              <NavDropdown.Item href='index.html'>
+              <NavDropdown.Item href='#corporate-designs'>
                 Corporate Designs
               </NavDropdown.Item>
-              <NavDropdown.Item href='index.html'>
+              <NavDropdown.Item href='#birthday-corvet'>
                 Father's 90th Birthday Surprise - 1962 Corvette
               </NavDropdown.Item>
             </NavDropdown>

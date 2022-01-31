@@ -1,6 +1,9 @@
 import TwoFastTwoFuriousMovieCars from "./projects-components/TwoFastTwoFuriousMovieCars";
 import LennyKravitzCadillac from "./projects-components/LennyKravitzCadillac";
 import NFLChadOchocincoLamborghini from './projects-components/NFLChadOchocincoLamborghini';
+import NFLRonnieBrownChevy from "./projects-components/NFLRonnieBrownChevy";
+import CorporateDesigns from "./projects-components/CorporateDesigns";
+import BirthdayCorvet from "./projects-components/BirthdayCorvette";
 
 const Projects = () => {
   return (
@@ -10,6 +13,9 @@ const Projects = () => {
         <TwoFastTwoFuriousMovieCars />
         <LennyKravitzCadillac />
         <NFLChadOchocincoLamborghini />
+        <NFLRonnieBrownChevy />
+        <CorporateDesigns />
+        <BirthdayCorvet />
       </div>
     </>
   );
