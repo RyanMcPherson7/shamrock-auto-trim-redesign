@@ -209,14 +209,27 @@ header h3 {
   color: var(--color-primary);
 }
 
+/* ============================= */
+/*            Contact            */
+/* ============================= */
 #contact-grabber {
   text-align: center;
   font-size: 1.4rem;
 }
 
 /* ============================= */
-/*            Contact            */
+/*            Footer             */
 /* ============================= */
+footer {
+  background-color: var(--color-secondary);
+  padding: 1rem;
+  text-align: center;
+}
+
+footer p {
+  color: var(--color-primary);
+  margin-bottom: 0;
+}
 
 /* ============================= */
 /*         Media Queries         */

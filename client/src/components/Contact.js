@@ -11,7 +11,7 @@ import {
 const Contact = () => {
   return (
     <>
-      <div className='section-wrapper' id='contact-wrapper'>
+      <div className='section-wrapper'>
         <h1 className='section-title' id='contact'>
           Contact
         </h1>
