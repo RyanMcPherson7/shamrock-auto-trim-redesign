@@ -4,6 +4,8 @@ import {
   FaYoutube,
   FaEnvelopeSquare,
   FaArrowAltCircleDown,
+  FaHome,
+  FaClock,
 } from 'react-icons/fa';
 import ImagesCarousel from './ImagesCarousel';
 
@@ -38,7 +40,8 @@ const imagesList = [
   },
   {
     image: './assets/header-images/header-8.jpg',
-    title: 'NBA star Eddie Jones restoration including new convertible top replacement, leather seats, carpet and trunk',
+    title:
+      'NBA star Eddie Jones restoration including new convertible top replacement, leather seats, carpet and trunk',
   },
   {
     image: './assets/header-images/header-9.jpg',
@@ -54,7 +57,8 @@ const imagesList = [
   },
   {
     image: './assets/header-images/header-12.jpg',
-    title: 'We recovered the panels with leather and matched seat style and appearance',
+    title:
+      'We recovered the panels with leather and matched seat style and appearance',
   },
   {
     image: './assets/header-images/header-13.jpg',
@@ -66,7 +70,8 @@ const imagesList = [
   },
   {
     image: './assets/header-images/header-15.jpg',
-    title: 'This customer found this Mercedes in a barn and brought it to us for a complete interior',
+    title:
+      'This customer found this Mercedes in a barn and brought it to us for a complete interior',
   },
   {
     image: './assets/header-images/header-16.jpg',
@@ -78,11 +83,13 @@ const imagesList = [
   },
   {
     image: './assets/header-images/header-18.jpg',
-    title: 'We repaired the seat frame, replaced the seat foam, and built new upholstery',
+    title:
+      'We repaired the seat frame, replaced the seat foam, and built new upholstery',
   },
   {
     image: './assets/header-images/header-19.jpg',
-    title: 'We build the the stay fast parking cover for the Lamborghini Murcielago',
+    title:
+      'We build the the stay fast parking cover for the Lamborghini Murcielago',
   },
   {
     image: './assets/header-images/header-20.jpg',
@@ -149,54 +156,68 @@ const Header = () => {
           <span className='special'>since 1968</span>. Have a look around!
         </p>
         <ImagesCarousel imagesList={imagesList} />
-        <h3>Visit Us</h3>
-        <p>
-          <span className='special'>Location:</span> 2040 Northeast 154 Street,
-          North Miami, Florida 33162 USA
-        </p>
-        <p>
-          <span className='special'>Business Hours:</span> 7 AM - 5 PM Monday -
-          Friday
-        </p>
+        <h3 className='service-title'>Visit Us</h3>
+        <ul className='contact-list'>
+          <li className='contact-list-item'>
+            <FaHome className='contact-list-item-icon' />
+            <p className='contact-list-item-p'>
+              <span className='special'>Location:</span> 2040 NE 154 St, North
+              Miami, Florida
+            </p>
+          </li>
+          <li className='contact-list-item'>
+            <FaClock className='contact-list-item-icon' />
+            <p className='contact-list-item-p'>
+              <span className='special'>Business Hours:</span> 7 AM - 5 PM
+              Monday - Friday
+            </p>
+          </li>
+        </ul>
 
-        <h3>Keep in Touch</h3>
-        <ul>
-          <li>
-            <FaFlickr className='keep-in-touch-icon' /> View our Flickr photo
-            gallery&nbsp;
+        <h3 className='service-title'>Keep in Touch</h3>
+        <ul className='contact-list'>
+          <li className='contact-list-item'>
+            <FaFlickr className='contact-list-item-icon' /> View our Flickr
+            photo gallery&nbsp;
             <a
               href='https://www.flickr.com/photos/shamrockride/'
               target='_blank'
               rel='noopener noreferrer'
+              className='contact-list-item-link'
             >
               here
             </a>
           </li>
-          <li>
-            <FaFacebookSquare className='keep-in-touch-icon' /> Follow us on
+          <li className='contact-list-item'>
+            <FaFacebookSquare className='contact-list-item-icon' /> Follow us on
             Facebook&nbsp;
             <a
               href='https://www.facebook.com/shamrocktrim/'
               target='_blank'
               rel='noopener noreferrer'
+              className='contact-list-item-link'
             >
               here
             </a>
           </li>
-          <li>
-            <FaYoutube className='keep-in-touch-icon' /> Watch our YouTube
+          <li className='contact-list-item'>
+            <FaYoutube className='contact-list-item-icon' /> Watch our YouTube
             videos&nbsp;
             <a
               href='https://www.youtube.com/c/ShamrockTrim/'
               target='_blank'
               rel='noopener noreferrer'
+              className='contact-list-item-link'
             >
               here
             </a>
           </li>
-          <li>
-            <FaEnvelopeSquare className='keep-in-touch-icon' /> Contact us&nbsp;
-            <a href='#contact'>here</a>
+          <li className='contact-list-item'>
+            <FaEnvelopeSquare className='contact-list-item-icon' /> Contact
+            us&nbsp;
+            <a href='#contact' className='contact-list-item-link'>
+              here
+            </a>
           </li>
         </ul>
 

@@ -15,7 +15,7 @@ const Navigation = () => {
           <a href='index.html'>Shamrock Auto Trim</a>
         </Navbar.Brand>
 
-        <Navbar.Toggle id='navbar-toggle'/>
+        <Navbar.Toggle id='navbar-toggle' />
         <Navbar.Collapse>
           <Nav>
             <Nav.Link href='#home'>Home</Nav.Link>
@@ -56,7 +56,7 @@ const Navigation = () => {
                 Father's 90th Birthday Surprise - 1962 Corvette
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href='index.html'>Contact</Nav.Link>
+            <Nav.Link href='#contact'>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
