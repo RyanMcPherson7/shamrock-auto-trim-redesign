@@ -4,6 +4,7 @@ import {
   FaYoutube,
   FaEnvelopeSquare,
   FaArrowAltCircleDown,
+  FaInstagramSquare,
   FaHome,
   FaClock,
 } from 'react-icons/fa';
@@ -57,12 +58,12 @@ const imagesList = [
   },
   {
     image: './assets/header-images/header-12.jpg',
-    title:
-      'After transformation',
+    title: 'After transformation',
   },
   {
     image: './assets/header-images/header-13.jpg',
-    title: 'We built new leather upholstery with a green accent stitch for Dodge Viper',
+    title:
+      'We built new leather upholstery with a green accent stitch for Dodge Viper',
   },
   {
     image: './assets/header-images/header-14.jpg',
@@ -71,7 +72,7 @@ const imagesList = [
   {
     image: './assets/header-images/header-15.jpg',
     title:
-    'A customer found this Mercedes in a barn and brought it to us for a complete interior restoration',
+      'A customer found this Mercedes in a barn and brought it to us for a complete interior restoration',
   },
   {
     image: './assets/header-images/header-17.jpg',
@@ -79,8 +80,7 @@ const imagesList = [
   },
   {
     image: './assets/header-images/header-18.jpg',
-    title:
-      'After transformation with new leather upholstery',
+    title: 'After transformation with new leather upholstery',
   },
   {
     image: './assets/header-images/header-16.jpg',
@@ -148,8 +148,7 @@ const imagesList = [
 const Header = () => {
   return (
     <>
-    
-      <header id='home'>
+      <header id='home' className='section-wrapper'>
         <h3 className='service-title'>A Brief Overview</h3>
         <p>
           Hi! We are a <span className='special'> family owned business</span>
@@ -184,7 +183,6 @@ const Header = () => {
               href='https://www.flickr.com/photos/shamrockride/'
               target='_blank'
               rel='noopener noreferrer'
-              className='contact-list-item-link'
             >
               here
             </a>
@@ -196,12 +194,21 @@ const Header = () => {
               href='https://www.youtube.com/c/ShamrockTrim/'
               target='_blank'
               rel='noopener noreferrer'
-              className='contact-list-item-link'
             >
               here
             </a>
           </li>
-
+          <li className='contact-list-item'>
+            <FaInstagramSquare className='contact-list-item-icon' /> Follow us
+            on Instagram&nbsp;
+            <a
+              href='https://www.instagram.com/shamrockautotrim/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              here
+            </a>
+          </li>
           <li className='contact-list-item'>
             <FaFacebookSquare className='contact-list-item-icon' /> Follow us on
             Facebook&nbsp;
@@ -209,26 +216,22 @@ const Header = () => {
               href='https://www.facebook.com/shamrocktrim/'
               target='_blank'
               rel='noopener noreferrer'
-              className='contact-list-item-link'
             >
               here
             </a>
           </li>
-
           <li className='contact-list-item'>
             <FaEnvelopeSquare className='contact-list-item-icon' /> Contact
             us&nbsp;
-            <a href='#contact' className='contact-list-item-link'>
-              here
-            </a>
+            <a href='#contact'>here</a>
           </li>
         </ul>
 
-        <div id='scroll-down-button-wrapper'>
+        {/* <div id='scroll-down-button-wrapper'>
           <a href='#about' id='scroll-down-button'>
             <FaArrowAltCircleDown />
           </a>
-        </div>
+        </div> */}
       </header>
     </>
   );

@@ -3,6 +3,11 @@ import ProjectBase from './ProjectBase';
 const imagesList = [
   {
     image:
+      './assets/projects-images/2fast2furious-movie-cars-images/movie-car-16.jpg',
+    title: `Brian's 1999 Nissan Skyline GT-R R34`,
+  },
+  {
+    image:
       './assets/projects-images/2fast2furious-movie-cars-images/movie-car-1.jpg',
     title: `Brian's 1999 Nissan Skyline GT-R R34 interior`,
   },

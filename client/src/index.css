@@ -91,13 +91,12 @@ li {
 /* ============================= */
 /*             Header            */
 /* ============================= */
-header {
-  height: 100vh;
-  padding: 5rem 1rem 0;
+#home {
+  padding-top: 5rem;
   position: relative;
 }
 
-header h3 {
+#home h3 {
   text-align: center;
   margin: 1rem 0 0;
 }
@@ -111,7 +110,6 @@ header h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   justify-items: left;
 }
 
@@ -124,13 +122,13 @@ header h3 {
   margin: 0.5rem 0;
 }
 
-.contact-list-item-link {
+.contact-list-item a {
   color: var(--color-green);
   font-weight: bold;
   transition: color 0.3s ease-in-out;
 }
 
-.contact-list-item-link:hover {
+.contact-list-item a:hover {
   color: var(--color-green);
 }
 
@@ -269,8 +267,12 @@ footer p {
     margin-bottom: 1.3rem;
   }
 
+  .quote-block {
+    margin-top: 2rem;
+  }
+
   /* adding hover effects */
-  .contact-list-item-link:hover {
+  .contact-list-item a:hover {
     color: var(--color-hover);
   }
 

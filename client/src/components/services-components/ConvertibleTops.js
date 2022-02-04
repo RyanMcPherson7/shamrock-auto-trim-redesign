@@ -45,6 +45,10 @@ const imagesList = [
     image: './assets/services-images/convertible-tops-images/convertible-top-11.jpg',
     title: 'Mustang convertible top installation',
   },
+  {
+    image: './assets/services-images/convertible-tops-images/convertible-top-12.jpg',
+    title: 'Aston Martin convertible top installation',
+  },
 ];
 
 const ConvertibleTops = () => {

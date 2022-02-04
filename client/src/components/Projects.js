@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <>
       <div className='section-wrapper'>
-        <h1 className='section-title'>Some of our Projects</h1>
+        <h1 className='section-title'>Our Past Jobs</h1>
         <TwoFastTwoFuriousMovieCars />
         <LennyKravitzCadillac />
         <NFLChadOchocincoLamborghini />

@@ -6,6 +6,7 @@ import {
   FaHome,
   FaClock,
   FaPhoneSquareAlt,
+  FaInstagramSquare,
 } from 'react-icons/fa';
 
 const Contact = () => {
@@ -58,7 +59,6 @@ const Contact = () => {
               href='https://www.flickr.com/photos/shamrockride/'
               target='_blank'
               rel='noopener noreferrer'
-              className='contact-list-item-link'
             >
               here
             </a>
@@ -70,7 +70,17 @@ const Contact = () => {
               href='https://www.youtube.com/c/ShamrockTrim/'
               target='_blank'
               rel='noopener noreferrer'
-              className='contact-list-item-link'
+            >
+              here
+            </a>
+          </li>
+          <li className='contact-list-item'>
+            <FaInstagramSquare className='contact-list-item-icon' /> Follow us on
+            Instagram&nbsp;
+            <a
+              href='https://www.instagram.com/shamrockautotrim/'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               here
             </a>
@@ -82,7 +92,6 @@ const Contact = () => {
               href='https://www.facebook.com/shamrocktrim/'
               target='_blank'
               rel='noopener noreferrer'
-              className='contact-list-item-link'
             >
               here
             </a>

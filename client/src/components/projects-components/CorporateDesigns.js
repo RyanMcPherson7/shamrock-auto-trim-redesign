@@ -26,6 +26,10 @@ const imagesList = [
     title: 'Cigarette crew truck front seats',
   },
   {
+    image: './assets/projects-images/corporate-designs-images/corporate-9.jpg',
+    title: 'The Cigarette racing boat',
+  },
+  {
     image: './assets/projects-images/corporate-designs-images/corporate-7.jpg',
     title: 'Cigarette race team crew truck',
   },
