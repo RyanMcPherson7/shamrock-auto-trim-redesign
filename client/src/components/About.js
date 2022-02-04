@@ -3,15 +3,15 @@ import ImagesCarousel from './ImagesCarousel';
 const imagesList = [
   {
     image: './assets/about-images/shamrock-logo.jpg',
-    title: 'Our logo created in 1968',
+    title: 'Our logo was modeled after our founder, Dan McPherson',
   },
   {
     image: './assets/about-images/shop-car-1.jpg',
-    title: 'A cool car we worked on',
+    title: 'Convertible top installation',
   },
   {
     image: './assets/about-images/shop-car-2.jpg',
-    title: 'A brief flash to the past',
+    title: 'Our shop exterior',
   },
   {
     image: './assets/about-images/office.jpg',
@@ -77,8 +77,7 @@ const About = () => {
             progressive trade show in the world."
           </p>
           <p className='quote-author'>
-            - <span className='special'>Randy McPherson</span>, head of
-            operations
+            - <span className='special'>Lee McPherson</span>, shop foreman
           </p>
         </div>
         <div className='quote-block'>
@@ -99,8 +98,7 @@ const About = () => {
             ."
           </p>
           <p className='quote-author'>
-            - <span className='special'>Randy McPherson</span>, head of
-            operations
+            - <span className='special'>Dan McPherson</span>, founder
           </p>
         </div>
       </div>

@@ -14,7 +14,7 @@ const imagesList = [
   {
     image:
       './assets/projects-images/nfl-chad-ochocinco-lamborghini-images/ochocinco-3.jpg',
-    title: 'Chad Ochocinco 3',
+    title: 'Chad Ochocinco in action',
   },
   {
     image:
@@ -24,7 +24,7 @@ const imagesList = [
   {
     image:
       './assets/projects-images/nfl-chad-ochocinco-lamborghini-images/ochocinco-5.jpg',
-    title: 'Chad Ochocinco 5',
+    title: '',
   },
 ];
 

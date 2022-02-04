@@ -19,7 +19,7 @@ const imagesList = [
   },
   {
     image: './assets/projects-images/corporate-designs-images/corporate-5.jpeg',
-    title: 'Cigarette embroidery read seat',
+    title: 'Cigarette embroidery rear seat',
   },
   {
     image: './assets/projects-images/corporate-designs-images/corporate-6.jpeg',

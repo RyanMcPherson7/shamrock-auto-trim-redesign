@@ -41,28 +41,28 @@ const imagesList = [
   {
     image: './assets/header-images/header-8.jpg',
     title:
-      'NBA star Eddie Jones restoration including new convertible top replacement, leather seats, carpet and trunk',
+      'NBA star Eddie Jones restoration including new convertible top and interior',
   },
   {
     image: './assets/header-images/header-9.jpg',
-    title: 'Shamrock fabricated new door panels',
+    title: 'We fabricated new door panels',
   },
   {
     image: './assets/header-images/header-10.jpg',
-    title: 'Shamrock recovered the new panels with leather',
+    title: 'We recovered the new panels with leather',
   },
   {
     image: './assets/header-images/header-11.jpg',
-    title: 'We fabricated new trunk panels and covered them with leather',
+    title: 'Before our transformation',
   },
   {
     image: './assets/header-images/header-12.jpg',
     title:
-      'We recovered the panels with leather and matched seat style and appearance',
+      'After transformation',
   },
   {
     image: './assets/header-images/header-13.jpg',
-    title: 'We built new leather upholstery with a green accent stitch',
+    title: 'We built new leather upholstery with a green accent stitch for Dodge Viper',
   },
   {
     image: './assets/header-images/header-14.jpg',
@@ -71,20 +71,20 @@ const imagesList = [
   {
     image: './assets/header-images/header-15.jpg',
     title:
-      'This customer found this Mercedes in a barn and brought it to us for a complete interior',
-  },
-  {
-    image: './assets/header-images/header-16.jpg',
-    title: 'We also builds the shamrockride.com heat shields',
+    'A customer found this Mercedes in a barn and brought it to us for a complete interior restoration',
   },
   {
     image: './assets/header-images/header-17.jpg',
-    title: 'We replaced the leather but also works with vinyl and cloth',
+    title: 'Before transformation',
   },
   {
     image: './assets/header-images/header-18.jpg',
     title:
-      'We repaired the seat frame, replaced the seat foam, and built new upholstery',
+      'After transformation with new leather upholstery',
+  },
+  {
+    image: './assets/header-images/header-16.jpg',
+    title: 'We also build the shamrockride.com heat shields',
   },
   {
     image: './assets/header-images/header-19.jpg',
@@ -97,7 +97,7 @@ const imagesList = [
   },
   {
     image: './assets/header-images/header-21.jpg',
-    title: 'New tonneau cover',
+    title: 'New Tonneau cover and convertible top installations',
   },
   {
     image: './assets/header-images/header-22.jpg',
@@ -105,7 +105,7 @@ const imagesList = [
   },
   {
     image: './assets/header-images/header-23.jpg',
-    title: 'Custom motorcycle seat',
+    title: 'Custom motorcycle seats',
   },
   {
     image: './assets/header-images/header-24.jpg',
@@ -121,7 +121,7 @@ const imagesList = [
   },
   {
     image: './assets/header-images/header-27.jpeg',
-    title: `One of the many cars of Universal's 2Fast2Furious movie cars we built`,
+    title: `One of the many Universal's 2Fast2Furious movie car interiors that we built`,
   },
   {
     image: './assets/header-images/header-28.jpg',
@@ -137,7 +137,7 @@ const imagesList = [
   },
   {
     image: './assets/header-images/header-31.jpg',
-    title: 'Lamborghini leather upholstery',
+    title: 'Custom Lamborghini leather upholstery',
   },
   {
     image: './assets/header-images/header-32.jpg',
@@ -148,6 +148,7 @@ const imagesList = [
 const Header = () => {
   return (
     <>
+    
       <header id='home'>
         <h3 className='service-title'>A Brief Overview</h3>
         <p>
@@ -162,7 +163,7 @@ const Header = () => {
             <FaHome className='contact-list-item-icon' />
             <p className='contact-list-item-p'>
               <span className='special'>Location:</span> 2040 NE 154 St, North
-              Miami, Florida
+              Miami, FL 33162
             </p>
           </li>
           <li className='contact-list-item'>

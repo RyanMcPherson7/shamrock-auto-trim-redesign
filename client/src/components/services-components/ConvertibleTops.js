@@ -3,47 +3,47 @@ import ImagesCarousel from '../ImagesCarousel';
 const imagesList = [
   {
     image: './assets/services-images/convertible-tops-images/convertible-top-1.jpg',
-    title: 'Convertible top 1',
+    title: 'BMW Z8 convertible top installation',
   },
   {
     image: './assets/services-images/convertible-tops-images/convertible-top-2.jpg',
-    title: 'Convertible top 2',
+    title: 'Cadillac convertible top installation',
   },
   {
     image: './assets/services-images/convertible-tops-images/convertible-top-3.jpg',
-    title: 'Convertible top 3',
+    title: 'Honda s2000 convertible top installations',
   },
   {
     image: './assets/services-images/convertible-tops-images/convertible-top-4.jpg',
-    title: 'Convertible top 4',
+    title: '1962 Corvette convertible top installation',
   },
   {
     image: './assets/services-images/convertible-tops-images/convertible-top-5.jpg',
-    title: 'Convertible top 5',
+    title: 'Ferrari convertible top installation',
   },
   {
     image: './assets/services-images/convertible-tops-images/convertible-top-6.jpg',
-    title: 'Convertible top 6',
+    title: 'Corvette convertible top installation',
   },
   {
     image: './assets/services-images/convertible-tops-images/convertible-top-7.jpg',
-    title: 'Convertible top 7',
+    title: 'Mustang convertible top installation',
   },
   {
     image: './assets/services-images/convertible-tops-images/convertible-top-8.jpg',
-    title: 'Convertible top 8',
+    title: 'Chevrolet Impala convertible top installation',
   },
   {
     image: './assets/services-images/convertible-tops-images/convertible-top-9.jpg',
-    title: 'Convertible top 9',
+    title: 'Corvette convertible top installation',
   },
   {
     image: './assets/services-images/convertible-tops-images/convertible-top-10.jpg',
-    title: 'Convertible top 10',
+    title: 'Chevrolet convertible top installation',
   },
   {
     image: './assets/services-images/convertible-tops-images/convertible-top-11.jpg',
-    title: 'Convertible top 11',
+    title: 'Mustang convertible top installation',
   },
 ];
 
@@ -51,7 +51,7 @@ const ConvertibleTops = () => {
   return (
     <>
       <div className='service-wrapper' id='convertible-tops'>
-        <h2 className='service-title'>Convertible Tops</h2>
+        <h2 className='service-title'>Convertible Top</h2>
         <h4>
           <span className='special'>Our job: </span>
           Shamrock can replace your convertible top or broken rear glass.

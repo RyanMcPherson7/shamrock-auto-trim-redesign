@@ -31,7 +31,7 @@ const BirthdayCorvet = () => {
   return (
     <ProjectBase
       idInput='birthday-corvet'
-      title={`Father's 90th Birthday Surprise - 1962 Corvette`}
+      title={`Father's 72nd Birthday Surprise - 1962 Corvette`}
       jobDescription='Shamrock tricked out a 1962 Corvette given to a father as his 90th birthday present!'
       imagesList={imagesList}
     />

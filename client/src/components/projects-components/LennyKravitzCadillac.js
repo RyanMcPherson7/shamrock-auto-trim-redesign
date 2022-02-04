@@ -4,27 +4,27 @@ const imagesList = [
   {
     image:
       './assets/projects-images/lenny-kravitz-cadillac-images/lenny-kravitz-1.jpg',
-    title: 'Lenny Kravitz 1',
+    title: '',
   },
   {
     image:
       './assets/projects-images/lenny-kravitz-cadillac-images/lenny-kravitz-2.jpg',
-    title: 'Lenny Kravitz 2',
+    title: '',
   },
   {
     image:
       './assets/projects-images/lenny-kravitz-cadillac-images/lenny-kravitz-3.jpg',
-    title: 'Lenny Kravitz 3',
+    title: '',
   },
   {
     image:
       './assets/projects-images/lenny-kravitz-cadillac-images/lenny-kravitz-4.jpg',
-    title: 'Lenny Kravitz 4',
+    title: '',
   },
   {
     image:
       './assets/projects-images/lenny-kravitz-cadillac-images/lenny-kravitz-5.jpg',
-    title: 'Lenny Kravitz 5',
+    title: '',
   },
 ];
 

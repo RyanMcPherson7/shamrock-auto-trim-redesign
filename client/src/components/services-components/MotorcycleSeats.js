@@ -4,72 +4,72 @@ const imagesList = [
   {
     image:
       './assets/services-images/motorcycle-seats-images/motorcycle-seat-1.jpg',
-    title: 'Motorcycle Seat 1',
+    title: 'Custom leather motorcycle seat',
   },
   {
     image:
       './assets/services-images/motorcycle-seats-images/motorcycle-seat-2.jpg',
-    title: 'Motorcycle Seat 2',
+    title: 'One-off custom designs',
   },
   {
     image:
       './assets/services-images/motorcycle-seats-images/motorcycle-seat-3.jpg',
-    title: 'Motorcycle Seat 3',
+    title: 'Diamond pattern seat',
   },
   {
     image:
       './assets/services-images/motorcycle-seats-images/motorcycle-seat-4.jpg',
-    title: 'Motorcycle Seat 4',
+    title: 'Alligator inserts',
   },
   {
     image:
       './assets/services-images/motorcycle-seats-images/motorcycle-seat-5.jpg',
-    title: 'Motorcycle Seat 5',
+    title: '',
   },
   {
     image:
       './assets/services-images/motorcycle-seats-images/motorcycle-seat-6.jpg',
-    title: 'Motorcycle Seat 6',
+    title: '',
   },
   {
     image:
       './assets/services-images/motorcycle-seats-images/motorcycle-seat-7.jpg',
-    title: 'Motorcycle Seat 7',
+    title: '',
   },
   {
     image:
       './assets/services-images/motorcycle-seats-images/motorcycle-seat-8.jpg',
-    title: 'Motorcycle Seat 8',
+    title: '',
   },
   {
     image:
       './assets/services-images/motorcycle-seats-images/motorcycle-seat-9.jpg',
-    title: 'Motorcycle Seat 9',
+    title: '',
   },
   {
     image:
       './assets/services-images/motorcycle-seats-images/motorcycle-seat-10.jpg',
-    title: 'Motorcycle Seat 10',
+    title: '',
   },
   {
     image:
       './assets/services-images/motorcycle-seats-images/motorcycle-seat-11.jpg',
-    title: 'Motorcycle Seat 11',
+    title: '',
   },
   {
     image:
       './assets/services-images/motorcycle-seats-images/motorcycle-seat-12.jpg',
-    title: 'Motorcycle Seat 12',
+    title: '',
   },
   {
     image:
       './assets/services-images/motorcycle-seats-images/motorcycle-seat-13.jpg',
-    title: 'Motorcycle Seat 13',
+    title: '',
   },
   {
     image:
       './assets/services-images/motorcycle-seats-images/motorcycle-seat-14.jpg',
-    title: 'Motorcycle Seat 14',
+    title: '',
   },
 ];
 
@@ -80,7 +80,7 @@ const MotorcycleSeats = () => {
         <h2 className='service-title'>Motorcycle Seats</h2>
         <h4>
           <span className='special'>Our job: </span>
-          Shamrock builds custom and original factory motorcycle seats
+          Shamrock builds custom and original factory motorcycle seats.
         </h4>
         <ImagesCarousel imagesList={imagesList} />
       </div>

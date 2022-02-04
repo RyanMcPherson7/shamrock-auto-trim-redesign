@@ -4,17 +4,17 @@ const imagesList = [
   {
     image:
       './assets/services-images/lamborghini-tonneau-cover-images/lamborghini-tonneau-cover-1.jpg',
-    title: 'Lamborghini Tonneau Cover 1',
+    title: '',
   },
   {
     image:
       './assets/services-images/lamborghini-tonneau-cover-images/lamborghini-tonneau-cover-2.jpg',
-    title: 'Lamborghini Tonneau Cover 2',
+    title: '',
   },
   {
     image:
       './assets/services-images/lamborghini-tonneau-cover-images/lamborghini-tonneau-cover-3.jpg',
-    title: 'Lamborghini Tonneau Cover 3',
+    title: '',
   },
 ];
 
@@ -22,7 +22,7 @@ const LamborghiniTonneauCover = () => {
   return (
     <>
       <div className='service-wrapper' id='lamborghini-tonneau-cover'>
-        <h2 className='service-title'>Lamborghini Tonneau Cover</h2>
+        <h2 className='service-title'>Lamborghini Tonneau Parking Cover</h2>
         <h4>
           <span className='special'>Our job: </span>
           Shamrock can build the&nbsp; Lamborghini Murcielago Roadster Stay-Fast
@@ -35,7 +35,7 @@ const LamborghiniTonneauCover = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            Buy Cover ($900.00)
+            Buy Parking Cover ($900.00)
           </a>
         </button>
         <div className='quote-block'>

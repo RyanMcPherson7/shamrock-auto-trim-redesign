@@ -15,11 +15,11 @@ const imagesList = [
   },
   {
     image: './assets/services-images/seats-images/seat-4.jpg',
-    title: 'Seats 4',
+    title: 'Custom Porsche Alcantara seats',
   },
   {
     image: './assets/services-images/seats-images/seat-5.jpg',
-    title: 'Vinyl with suede Corvette seats',
+    title: 'Corvette seats upholstered with vinyl and suede inserts',
   },
   {
     image: './assets/services-images/seats-images/seat-6.jpg',
@@ -39,27 +39,27 @@ const imagesList = [
   },
   {
     image: './assets/services-images/seats-images/seat-10.jpg',
-    title: 'Seats 10',
+    title: 'Complete 2-tone interior',
   },
   {
     image: './assets/services-images/seats-images/seat-11.jpg',
-    title: 'Seats 11',
+    title: 'Chevrolet Camaro Bumblebee interior',
   },
   {
     image: './assets/services-images/seats-images/seat-12.jpg',
-    title: 'Seats 12',
+    title: '2-tone Lamborghini interior',
   },
   {
     image: './assets/services-images/seats-images/seat-13.jpg',
-    title: 'Seats 13',
+    title: '2-tone Chevy Impala',
   },
   {
     image: './assets/services-images/seats-images/seat-14.jpg',
-    title: 'Seats 14',
+    title: 'Mercedes SL interior',
   },
   {
     image: './assets/services-images/seats-images/seat-15.jpg',
-    title: 'Seats 15',
+    title: 'Pontiac Firebird interior',
   },
 ];
 

@@ -4,22 +4,22 @@ const imagesList = [
   {
     image:
       './assets/services-images/motorcycle-heat-shield-images/motorcycle-heat-shield-1.jpeg',
-    title: 'Heat Shield 1',
+    title: 'Studded heat shield',
   },
   {
     image:
       './assets/services-images/motorcycle-heat-shield-images/motorcycle-heat-shield-2.jpg',
-    title: 'Heat Shield 2',
+    title: 'Our booth at the Leesburg Bikefest',
   },
   {
     image:
       './assets/services-images/motorcycle-heat-shield-images/motorcycle-heat-shield-3.jpeg',
-    title: 'Heat Shield 3',
+    title: 'Plain heat shield',
   },
   {
     image:
       './assets/services-images/motorcycle-heat-shield-images/motorcycle-heat-shield-4.jpg',
-    title: 'Heat Shield 4',
+    title: 'Plain heat shield',
   },
 ];
 
