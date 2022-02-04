@@ -2,6 +2,7 @@
   --color-primary: #ffffff;
   --color-secondary: #212529;
   --color-green: #06a77d;
+  --color-hover: #0021df;
 }
 
 * {
@@ -38,6 +39,11 @@ li {
   text-align: center;
 }
 
+::selection {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}
+
 /* ============================= */
 /*        Images Carousel        */
 /* ============================= */
@@ -51,7 +57,7 @@ li {
 }
 
 .carousel-overlay-image {
-  height: 15rem;
+  height: 17rem;
   background-position: center;
   background-size: cover;
   opacity: 0.75;
@@ -88,6 +94,7 @@ li {
 header {
   height: 100vh;
   padding: 5rem 1rem 0;
+  position: relative;
 }
 
 header h3 {
@@ -101,6 +108,11 @@ header h3 {
 
 .contact-list {
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  justify-items: left;
 }
 
 .contact-list-item {
@@ -115,6 +127,7 @@ header h3 {
 .contact-list-item-link {
   color: var(--color-green);
   font-weight: bold;
+  transition: color 0.3s ease-in-out;
 }
 
 .contact-list-item-link:hover {
@@ -135,7 +148,7 @@ header h3 {
 #scroll-down-button {
   font-size: 2rem;
   position: absolute;
-  bottom: 4vh;
+  bottom: 2.5vh;
   color: var(--color-secondary);
   animation: up-and-down 2.5s ease-in-out infinite;
 }
@@ -192,11 +205,12 @@ header h3 {
   background-color: var(--color-green);
   border: none;
   padding: 0.8rem 1.2rem;
-  border-radius: 1rem;
+  border-radius: 0.7rem;
   display: block;
   width: 16rem;
   box-shadow: 0px 5px 20px #858585;
   margin: 1rem auto;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .purchase-button a {
@@ -234,8 +248,44 @@ footer p {
 /* ============================= */
 /*         Media Queries         */
 /* ============================= */
-@media (max-height: 840px) {
+@media (max-height: 900px) {
   #scroll-down-button-wrapper {
     display: none;
   }
 }
+
+@media (min-width: 600px) {
+  :root {
+    font-size: 1.1rem;
+  }
+
+  .section-wrapper {
+    padding: 1.5rem;
+  }
+
+  .carousel-body {
+    width: 30rem;
+    margin-bottom: 1.3rem;
+  }
+
+  /* adding hover effects */
+  .contact-list-item-link:hover {
+    color: var(--color-hover);
+  }
+
+  .purchase-button:hover {
+    background-color: var(--color-hover);
+  }
+}
+
+@media (min-width: 700px) {
+  .section-wrapper {
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  /* some epic styling here */
+}
+
+/* TODO: fix issue where About section title is half visible when visited through nav */

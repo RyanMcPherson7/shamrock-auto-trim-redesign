@@ -64,10 +64,10 @@ const Contact = () => {
             </a>
           </li>
           <li className='contact-list-item'>
-            <FaFacebookSquare className='contact-list-item-icon' /> Follow us on
-            Facebook&nbsp;
+            <FaYoutube className='contact-list-item-icon' /> Watch our YouTube
+            videos&nbsp;
             <a
-              href='https://www.facebook.com/shamrocktrim/'
+              href='https://www.youtube.com/c/ShamrockTrim/'
               target='_blank'
               rel='noopener noreferrer'
               className='contact-list-item-link'
@@ -76,10 +76,10 @@ const Contact = () => {
             </a>
           </li>
           <li className='contact-list-item'>
-            <FaYoutube className='contact-list-item-icon' /> Watch our YouTube
-            videos&nbsp;
+            <FaFacebookSquare className='contact-list-item-icon' /> Follow us on
+            Facebook&nbsp;
             <a
-              href='https://www.youtube.com/c/ShamrockTrim/'
+              href='https://www.facebook.com/shamrocktrim/'
               target='_blank'
               rel='noopener noreferrer'
               className='contact-list-item-link'

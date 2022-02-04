@@ -26,7 +26,7 @@ const LamborghiniTonneauCover = () => {
         <h4>
           <span className='special'>Our job: </span>
           Shamrock can build the&nbsp; Lamborghini Murcielago Roadster Stay-Fast
-          Tonneau Soft Parking Covers .
+          Tonneau Soft Parking Covers.
         </h4>
         <ImagesCarousel imagesList={imagesList} />
         <button className='purchase-button'>

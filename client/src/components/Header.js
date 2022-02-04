@@ -149,7 +149,7 @@ const Header = () => {
   return (
     <>
       <header id='home'>
-        <h3>A Brief Overview</h3>
+        <h3 className='service-title'>A Brief Overview</h3>
         <p>
           Hi! We are a <span className='special'> family owned business</span>
           &nbsp; specializing in automotive interiors and convertible tops&nbsp;
@@ -189,18 +189,6 @@ const Header = () => {
             </a>
           </li>
           <li className='contact-list-item'>
-            <FaFacebookSquare className='contact-list-item-icon' /> Follow us on
-            Facebook&nbsp;
-            <a
-              href='https://www.facebook.com/shamrocktrim/'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='contact-list-item-link'
-            >
-              here
-            </a>
-          </li>
-          <li className='contact-list-item'>
             <FaYoutube className='contact-list-item-icon' /> Watch our YouTube
             videos&nbsp;
             <a
@@ -212,6 +200,20 @@ const Header = () => {
               here
             </a>
           </li>
+
+          <li className='contact-list-item'>
+            <FaFacebookSquare className='contact-list-item-icon' /> Follow us on
+            Facebook&nbsp;
+            <a
+              href='https://www.facebook.com/shamrocktrim/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='contact-list-item-link'
+            >
+              here
+            </a>
+          </li>
+
           <li className='contact-list-item'>
             <FaEnvelopeSquare className='contact-list-item-icon' /> Contact
             us&nbsp;
