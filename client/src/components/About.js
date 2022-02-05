@@ -29,10 +29,6 @@ const About = () => {
       <div id='about' className='section-wrapper'>
         <h1 className='section-title'>Our Story</h1>
         <div id='about-grid-wrapper'>
-          <div className='grid-carousel'>
-            <ImagesCarousel imagesList={imagesList} />
-          </div>
-
           <div className='quote-block'>
             <p className='quote-paragraph'>
               "Shamrock Auto Trim is a small&nbsp;
@@ -63,6 +59,10 @@ const About = () => {
             </p>
           </div>
 
+          <div className='center-carousel-wrapper'>
+            <ImagesCarousel imagesList={imagesList} />
+          </div>
+
           <div className='quote-block'>
             <p className='quote-paragraph'>
               "Our business is decorated with antique signs and neon clocks.
@@ -82,6 +82,7 @@ const About = () => {
               - <span className='special'>Lee McPherson</span>, shop foreman
             </p>
           </div>
+          
           <div className='quote-block'>
             <p className='quote-paragraph'>
               "Some potential customers may be fearful when they see the variety

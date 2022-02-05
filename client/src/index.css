@@ -135,21 +135,20 @@ li {
 }
 
 #scroll-down-button-wrapper {
-  display: flex;
-  justify-content: center;
+  display: none;
 }
 
 #scroll-down-button {
-  font-size: 2rem;
+  font-size: 3rem;
   position: absolute;
-  bottom: 2.5vh;
+  bottom: 5vh;
   color: var(--color-secondary);
   animation: up-and-down 2.5s ease-in-out infinite;
 }
 
 @keyframes up-and-down {
   50% {
-    transform: translateY(20px);
+    transform: translateY(40px);
   }
   100% {
     transform: translateY(0);
@@ -307,6 +306,23 @@ footer p {
 }
 
 @media (min-width: 1100px) {
+  #scroll-down-button-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  #scroll-down-button-wrapper a {
+    transition: color 0.2s ease-in-out;
+  }
+
+  #scroll-down-button-wrapper a:hover {
+    color: var(--color-green);
+  }
+
+  #home {
+    height: 100vh;
+  }
+
   #home p {
     font-size: 1.4rem;
     text-align: center;
@@ -315,17 +331,26 @@ footer p {
     max-width: 50rem;
   }
 
-  .grid-info-carousel-wrapper {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 1rem;
-    max-width: 1300px;
+  .section-title {
+    font-size: 3.5rem;
   }
 
-  .grid-carousel {
+  .flex-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+    gap: 2rem;
+    margin: 0 auto;
+  }
+
+  .center-carousel-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .flex-content-item {
+    margin-left: auto;
   }
 }
 

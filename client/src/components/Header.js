@@ -158,12 +158,12 @@ const Header = () => {
           <span className='special'>since 1968</span>. Have a look around!
         </p>
 
-        <div className='grid-info-carousel-wrapper'>
-          <div className='grid-carousel'>
+        <div className='flex-content-wrapper'>
+          <div className='center-carousel-wrapper'>
             <ImagesCarousel imagesList={imagesList} />
           </div>
 
-          <div className='grid-info'>
+          <div className='flex-content-item'>
             <h2 className='service-title'>Visit Us</h2>
             <ul className='contact-list'>
               <li className='contact-list-item'>
@@ -237,11 +237,11 @@ const Header = () => {
           </div>
         </div>
 
-        {/* <div id='scroll-down-button-wrapper'>
+        <div id='scroll-down-button-wrapper'>
           <a href='#about' id='scroll-down-button'>
             <FaArrowAltCircleDown />
           </a>
-        </div> */}
+        </div>
       </header>
     </>
   );
