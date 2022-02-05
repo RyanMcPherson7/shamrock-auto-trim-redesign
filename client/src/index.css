@@ -315,15 +315,30 @@ footer p {
     max-width: 50rem;
   }
 
-  .header-grid-info-carousel-wrapper {
+  .grid-info-carousel-wrapper {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 1rem;
+    max-width: 1300px;
   }
 
-  .header-grid-carousel {
+  .grid-carousel {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  #about-grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  .quote-block {
+    margin: 0;
   }
 }

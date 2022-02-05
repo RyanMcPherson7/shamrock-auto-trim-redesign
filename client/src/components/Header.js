@@ -158,12 +158,12 @@ const Header = () => {
           <span className='special'>since 1968</span>. Have a look around!
         </p>
 
-        <div className='header-grid-info-carousel-wrapper'>
-          <div className='header-grid-carousel'>
+        <div className='grid-info-carousel-wrapper'>
+          <div className='grid-carousel'>
             <ImagesCarousel imagesList={imagesList} />
           </div>
 
-          <div className='header-grid-info'>
+          <div className='grid-info'>
             <h2 className='service-title'>Visit Us</h2>
             <ul className='contact-list'>
               <li className='contact-list-item'>
