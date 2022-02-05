@@ -150,86 +150,92 @@ const Header = () => {
     <>
       <header id='home' className='section-wrapper'>
         <h2 className='service-title' id='header-opener-title'>
-          A Brief Overview
+          Shamrock Auto Trim
         </h2>
-        <p>
+        <p className='service-description'>
           Hi! We are a <span className='special'> family owned business</span>
           &nbsp;specializing in automotive interiors and convertible tops&nbsp;
           <span className='special'>since 1968</span>. Have a look around!
         </p>
 
-        <ImagesCarousel imagesList={imagesList} />
+        <div className='header-grid-info-carousel-wrapper'>
+          <div className='header-grid-carousel'>
+            <ImagesCarousel imagesList={imagesList} />
+          </div>
 
-        <h2 className='service-title'>Visit Us</h2>
-        <ul className='contact-list'>
-          <li className='contact-list-item'>
-            <FaHome className='contact-list-item-icon' />
-            <div>
-              <span className='special'>Location:</span>&nbsp;2040 NE 154 St,
-              North Miami, FL 33162
-            </div>
-          </li>
-          <li className='contact-list-item'>
-            <FaClock className='contact-list-item-icon' />
-            <div>
-              <span className='special'>Business Hours:</span>&nbsp;7 AM - 5 PM
-              Monday - Friday
-            </div>
-          </li>
-        </ul>
+          <div className='header-grid-info'>
+            <h2 className='service-title'>Visit Us</h2>
+            <ul className='contact-list'>
+              <li className='contact-list-item'>
+                <FaHome className='contact-list-item-icon' />
+                <div>
+                  <span className='special'>Location:</span>&nbsp;2040 NE 154
+                  St, North Miami, FL 33162
+                </div>
+              </li>
+              <li className='contact-list-item'>
+                <FaClock className='contact-list-item-icon' />
+                <div>
+                  <span className='special'>Business Hours:</span>&nbsp;7 AM - 5
+                  PM Monday - Friday
+                </div>
+              </li>
+            </ul>
 
-        <h2 className='service-title'>Keep in Touch</h2>
-        <ul className='contact-list'>
-          <li className='contact-list-item'>
-            <FaFlickr className='contact-list-item-icon' /> View our Flickr
-            photo gallery&nbsp;
-            <a
-              href='https://www.flickr.com/photos/shamrockride/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              here
-            </a>
-          </li>
-          <li className='contact-list-item'>
-            <FaYoutube className='contact-list-item-icon' /> Watch our YouTube
-            videos&nbsp;
-            <a
-              href='https://www.youtube.com/c/ShamrockTrim/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              here
-            </a>
-          </li>
-          <li className='contact-list-item'>
-            <FaInstagramSquare className='contact-list-item-icon' /> Follow us
-            on Instagram&nbsp;
-            <a
-              href='https://www.instagram.com/shamrockautotrim/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              here
-            </a>
-          </li>
-          <li className='contact-list-item'>
-            <FaFacebookSquare className='contact-list-item-icon' /> Follow us on
-            Facebook&nbsp;
-            <a
-              href='https://www.facebook.com/shamrocktrim/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              here
-            </a>
-          </li>
-          <li className='contact-list-item'>
-            <FaEnvelopeSquare className='contact-list-item-icon' /> Contact
-            us&nbsp;
-            <a href='#contact'>here</a>
-          </li>
-        </ul>
+            <h2 className='service-title'>Keep in Touch</h2>
+            <ul className='contact-list'>
+              <li className='contact-list-item'>
+                <FaFlickr className='contact-list-item-icon' /> View our Flickr
+                photo gallery&nbsp;
+                <a
+                  href='https://www.flickr.com/photos/shamrockride/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  here
+                </a>
+              </li>
+              <li className='contact-list-item'>
+                <FaYoutube className='contact-list-item-icon' /> Watch our
+                YouTube videos&nbsp;
+                <a
+                  href='https://www.youtube.com/c/ShamrockTrim/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  here
+                </a>
+              </li>
+              <li className='contact-list-item'>
+                <FaInstagramSquare className='contact-list-item-icon' /> Follow
+                us on Instagram&nbsp;
+                <a
+                  href='https://www.instagram.com/shamrockautotrim/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  here
+                </a>
+              </li>
+              <li className='contact-list-item'>
+                <FaFacebookSquare className='contact-list-item-icon' /> Follow
+                us on Facebook&nbsp;
+                <a
+                  href='https://www.facebook.com/shamrocktrim/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  here
+                </a>
+              </li>
+              <li className='contact-list-item'>
+                <FaEnvelopeSquare className='contact-list-item-icon' /> Contact
+                us&nbsp;
+                <a href='#contact'>here</a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
         {/* <div id='scroll-down-button-wrapper'>
           <a href='#about' id='scroll-down-button'>

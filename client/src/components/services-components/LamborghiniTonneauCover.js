@@ -23,7 +23,7 @@ const LamborghiniTonneauCover = () => {
     <>
       <div className='service-wrapper' id='lamborghini-tonneau-cover'>
         <h2 className='service-title'>Lamborghini Tonneau Parking Cover</h2>
-        <h4>
+        <h4 className='service-description'>
           <span className='special'>Our job: </span>
           Shamrock can build the&nbsp; Lamborghini Murcielago Roadster Stay-Fast
           Tonneau Soft Parking Covers.

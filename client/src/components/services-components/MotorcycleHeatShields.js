@@ -28,7 +28,7 @@ const MotorcycleHeatShields = () => {
     <>
       <div className='service-wrapper' id='motorcycle-heat-shields'>
         <h2 className='service-title'>Motorcycle Heat Shields</h2>
-        <h4>
+        <h4 className='service-description'>
           <span className='special'>Our job: </span>
           Shamrock builds a studded or plain motorcycle heat shield that
           protects your inner thighs on a long ride.

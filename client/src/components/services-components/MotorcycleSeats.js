@@ -78,7 +78,7 @@ const MotorcycleSeats = () => {
     <>
       <div className='service-wrapper' id='motorcycle-seats'>
         <h2 className='service-title'>Motorcycle Seats</h2>
-        <h4>
+        <h4 className='service-description'>
           <span className='special'>Our job: </span>
           Shamrock builds custom and original factory motorcycle seats.
         </h4>

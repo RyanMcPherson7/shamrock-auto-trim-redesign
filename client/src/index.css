@@ -49,7 +49,7 @@ li {
 /* ============================= */
 .carousel-body {
   margin: 1rem auto;
-  box-shadow: 0px 5px 15px #a0a0a0;
+  box-shadow: 0px 5px 15px #a3b0bd;
 }
 
 .carousel-item {
@@ -82,7 +82,7 @@ li {
   margin: 0;
   padding-left: 0.5rem;
   font-weight: 500;
-  transition: color 0.3s ease-in-out
+  transition: color 0.3s ease-in-out;
 }
 
 #navbar-toggle {
@@ -164,7 +164,7 @@ li {
   padding: 1rem;
   border-radius: 1rem;
   margin-bottom: 1rem;
-  box-shadow: 0px 5px 15px #a0a0a0;
+  box-shadow: 0px 5px 15px #dceaf7;
 }
 
 .quote-paragraph {
@@ -201,7 +201,7 @@ li {
   border-radius: 0.7rem;
   display: block;
   width: 16rem;
-  box-shadow: 0px 5px 15px #a0a0a0;
+  box-shadow: 0px 5px 15px #a3b0bd;
   margin: 2rem auto;
   transition: background-color 0.3s ease-in-out;
 }
@@ -256,6 +256,13 @@ footer p {
     padding: 1.5rem;
   }
 
+  .service-title,
+  .service-description {
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .carousel-body {
     width: 30rem;
     margin-bottom: 1.3rem;
@@ -287,6 +294,7 @@ footer p {
 
   .carousel-body {
     width: 35rem;
+    height: 20rem;
   }
 
   .carousel-overlay-image {
@@ -298,6 +306,24 @@ footer p {
   }
 }
 
-@media (min-width: 1000px) {
-  /* some epic styling here */
+@media (min-width: 1100px) {
+  #home p {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0 4rem;
+    margin: 0 auto 1rem;
+    max-width: 50rem;
+  }
+
+  .header-grid-info-carousel-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+  }
+
+  .header-grid-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

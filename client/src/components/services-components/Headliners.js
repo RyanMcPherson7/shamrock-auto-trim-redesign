@@ -3,8 +3,7 @@ import ImagesCarousel from '../ImagesCarousel';
 const imagesList = [
   {
     image: './assets/services-images/headliners-images/headliner-1.jpg',
-    title:
-      'Headliner board recovered using new material',
+    title: 'Headliner board recovered using new material',
   },
 ];
 
@@ -13,7 +12,7 @@ const Headliners = () => {
     <>
       <div className='service-wrapper' id='headliners'>
         <h2 className='service-title'>Headliners</h2>
-        <h4>
+        <h4 className='service-description'>
           <span className='special'>Our job: </span>
           Shamrock can&nbsp; remove your headliner board and recover it with new
           material in 1 day.

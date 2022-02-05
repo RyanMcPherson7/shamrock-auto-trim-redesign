@@ -29,6 +29,7 @@ const About = () => {
       <div id='about' className='section-wrapper'>
         <h1 className='section-title'>Our Story</h1>
         <ImagesCarousel imagesList={imagesList} />
+
         <div className='quote-block'>
           <p className='quote-paragraph'>
             "Shamrock Auto Trim is a small&nbsp;
@@ -42,8 +43,8 @@ const About = () => {
             born and raised in <span className='special'>Miami</span>.
           </p>
           <p className='quote-paragraph'>
-            Recently, our previous mascot Fraiser, a Jack Russel terrier,
-            sadly passed away. Fraiser was a&nbsp;
+            Recently, our previous mascot Fraiser, a Jack Russel terrier, sadly
+            passed away. Fraiser was a&nbsp;
             <span className='special'>customer favorite</span> who came to work
             with us every day for 17 years. Fraiser even received Christmas
             cards from customers and some would&nbsp;

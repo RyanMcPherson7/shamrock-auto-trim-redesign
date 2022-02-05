@@ -72,11 +72,11 @@ const Seats = () => {
     <>
       <div className='service-wrapper' id='seats'>
         <h3 className='service-title'>Automotive and Marine Seats</h3>
-        <p>
+        <h4 className='service-description'>
           <span className='special'>Our job: </span>
           Shamrock can duplicate your factory upholstery using matching vinyl,
           cloth, suede, or leather.
-        </p>
+        </h4>
         <ImagesCarousel imagesList={imagesList} />
       </div>
     </>
