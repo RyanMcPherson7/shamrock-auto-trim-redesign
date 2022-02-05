@@ -33,7 +33,7 @@ const LennyKravitzCadillac = () => {
     <ProjectBase
       idInput='lenny-kravitz-cadillac'
       title={`Lenny Kravitz's Cadillac`}
-      jobDescription={`Shamrock build a custom interior to match Lenny Kravitz's Cadillac's exterior.`}
+      jobDescription={`Shamrock built a custom interior to match Lenny Kravitz's Cadillac's exterior.`}
       imagesList={imagesList}
     />
   );

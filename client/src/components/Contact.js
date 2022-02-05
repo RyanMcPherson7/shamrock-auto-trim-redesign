@@ -24,13 +24,17 @@ const Contact = () => {
         <ul className='contact-list'>
           <li className='contact-list-item'>
             <FaHome className='contact-list-item-icon' />
-            <span className='special'>Location:</span> &nbsp;2040 NE 154 St,
-            North Miami, FL 33162
+            <div>
+              <span className='special'>Location:</span>&nbsp;2040 NE 154 St,
+              North Miami, FL 33162
+            </div>
           </li>
           <li className='contact-list-item'>
             <FaClock className='contact-list-item-icon' />
-            <span className='special'>Business Hours:</span> &nbsp;7 AM - 5 PM
-            Monday - Friday
+            <div>
+              <span className='special'>Business Hours:</span>&nbsp;7 AM - 5 PM
+              Monday - Friday
+            </div>
           </li>
           <li className='contact-list-item'>
             <FaEnvelopeSquare className='contact-list-item-icon' />

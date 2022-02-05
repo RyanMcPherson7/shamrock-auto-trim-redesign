@@ -149,10 +149,12 @@ const Header = () => {
   return (
     <>
       <header id='home' className='section-wrapper'>
-        <h2 className='service-title' id='header-opener-title'>A Brief Overview</h2>
+        <h2 className='service-title' id='header-opener-title'>
+          A Brief Overview
+        </h2>
         <p>
           Hi! We are a <span className='special'> family owned business</span>
-          &nbsp; specializing in automotive interiors and convertible tops&nbsp;
+          &nbsp;specializing in automotive interiors and convertible tops&nbsp;
           <span className='special'>since 1968</span>. Have a look around!
         </p>
 
@@ -162,13 +164,17 @@ const Header = () => {
         <ul className='contact-list'>
           <li className='contact-list-item'>
             <FaHome className='contact-list-item-icon' />
-            <span className='special'>Location:</span> 2040 NE 154 St, North
-            Miami, FL 33162
+            <div>
+              <span className='special'>Location:</span>&nbsp;2040 NE 154 St,
+              North Miami, FL 33162
+            </div>
           </li>
           <li className='contact-list-item'>
             <FaClock className='contact-list-item-icon' />
-            <span className='special'>Business Hours:</span> 7 AM - 5 PM Monday
-            - Friday
+            <div>
+              <span className='special'>Business Hours:</span>&nbsp;7 AM - 5 PM
+              Monday - Friday
+            </div>
           </li>
         </ul>
 
