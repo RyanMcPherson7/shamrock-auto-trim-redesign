@@ -54,35 +54,28 @@ const MotorcycleHeatShields = () => {
         </button>
         <div className='quote-block'>
           <p className='quote-paragraph'>
-            "Shamrock Auto Trim designed the shield for the police motor patrol
-            and soon realized that the general public had a need for the shield
-            as well. They dressed up their plain shield with polished chrome
-            studs which match the ones used on seats and bags. The shield
-            contains a heat blocking reflective foil and insulation which
-            greatly reduces the heat. The shield is easy to install and requires
-            no modifications to the motorcycle. First, you remove the seat, then
-            place the shield down and align with the seat bracket. Once you
-            reinstall seat, you will feel the difference and be able to ride
-            longer with greater comfort. The outer shield cover is fabricated
-            out of original Harley Davidson black material which matches the
-            original seat. The shield only works with stock exhaust and seat."
+            "We designed the heat shield for our local Harley Davidson
+            dealership. They had quite a few complaints from various police
+            agencies about the heat that was omitted from the engine and
+            exhaust. After we designed the shield for the police motor patrol we
+            soon realized that the general public had a need for the shield as
+            well. We dress up their plain shield with polished chrome studs
+            which match the ones used on seats and bags. The shield contains
+            a&nbsp;
+            <span className='special'>heat blocking reflective foil</span> and
+            insulation which&nbsp;
+            <span className='special'>greatly reduces the heat</span>. The
+            shield is easy to install and requires no modifications to the
+            motorcycle. First, you remove the seat, then place the shield down
+            and align with the seat bracket. Once you reinstall seat, you will
+            feel the difference and be able to&nbsp;
+            <span className='special'>ride longer with greater comfort</span>.
+            The outer shield cover is fabricated out of original Harley Davidson
+            black material which matches the original seat. The shield only
+            works with stock exhaust and seat. The shield will fit all baggers,
+            softails and sportsters."
           </p>
-          <p className='quote-paragraph'>
-            Shamrock Auto Trim designed the heat shield for a local Harley
-            Davidson dealership. They had quite a few complaints from various
-            police agencies about the heat that was omitted from the engine and
-            exhaust. Shamrock realized that they would have to redirect the heat
-            away from the rider and towards the rear of the bike. The shield
-            contains a highly reflective foil material and insulation which
-            greatly reduces the heat. The shield is easy to install and requires
-            no modifications to the motorcycle. First, you remove the seat, then
-            place the shield down and align with the seat bracket. Once you
-            reinstall seat, you will feel the difference and be able to ride
-            longer with greater comfort. The outer shield is fabricated using
-            original Harley Davidson black material which matches the original
-            seat. The shield only works with stock exhaust and seat. The shield
-            will fit all baggers, softails and sportsters."
-          </p>
+
           <p className='quote-author'>
             - <span className='special'>Randy McPherson</span>, head of
             operations

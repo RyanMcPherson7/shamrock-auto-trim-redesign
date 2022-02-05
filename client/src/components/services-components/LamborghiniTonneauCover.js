@@ -45,9 +45,12 @@ const LamborghiniTonneauCover = () => {
             engine performance. Lamborghini ran out of room in the engine
             compartment for a traditional folding convertible top. They decided
             to build the convertible with a folding targa type top that fit in a
-            small compartment in the front trunk. The main problem was that you
-            needed a Lamborghini technician to follow you in his car to fold the
-            top.
+            small compartment in the front trunk. The main problem was
+            that&nbsp;
+            <span className='special'>
+              you needed a Lamborghini technician to follow you
+            </span>
+            &nbsp; in his car to fold the top.
           </p>
           <p className='quote-paragraph'>
             There were a few companies that tried to build a carbon fiber roof,

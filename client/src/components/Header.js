@@ -149,32 +149,30 @@ const Header = () => {
   return (
     <>
       <header id='home' className='section-wrapper'>
-        <h3 className='service-title'>A Brief Overview</h3>
+        <h2 className='service-title' id='header-opener-title'>A Brief Overview</h2>
         <p>
           Hi! We are a <span className='special'> family owned business</span>
           &nbsp; specializing in automotive interiors and convertible tops&nbsp;
           <span className='special'>since 1968</span>. Have a look around!
         </p>
+
         <ImagesCarousel imagesList={imagesList} />
-        <h3 className='service-title'>Visit Us</h3>
+
+        <h2 className='service-title'>Visit Us</h2>
         <ul className='contact-list'>
           <li className='contact-list-item'>
             <FaHome className='contact-list-item-icon' />
-            <p className='contact-list-item-p'>
-              <span className='special'>Location:</span> 2040 NE 154 St, North
-              Miami, FL 33162
-            </p>
+            <span className='special'>Location:</span> 2040 NE 154 St, North
+            Miami, FL 33162
           </li>
           <li className='contact-list-item'>
             <FaClock className='contact-list-item-icon' />
-            <p className='contact-list-item-p'>
-              <span className='special'>Business Hours:</span> 7 AM - 5 PM
-              Monday - Friday
-            </p>
+            <span className='special'>Business Hours:</span> 7 AM - 5 PM Monday
+            - Friday
           </li>
         </ul>
 
-        <h3 className='service-title'>Keep in Touch</h3>
+        <h2 className='service-title'>Keep in Touch</h2>
         <ul className='contact-list'>
           <li className='contact-list-item'>
             <FaFlickr className='contact-list-item-icon' /> View our Flickr

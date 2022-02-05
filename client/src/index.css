@@ -35,7 +35,7 @@ li {
 
 .section-title {
   margin-bottom: 1rem;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   text-align: center;
 }
 
@@ -49,7 +49,7 @@ li {
 /* ============================= */
 .carousel-body {
   margin: 1rem auto;
-  box-shadow: 0px 5px 20px #858585;
+  box-shadow: 0px 5px 15px #a0a0a0;
 }
 
 .carousel-item {
@@ -82,6 +82,7 @@ li {
   margin: 0;
   padding-left: 0.5rem;
   font-weight: 500;
+  transition: color 0.3s ease-in-out
 }
 
 #navbar-toggle {
@@ -96,13 +97,8 @@ li {
   position: relative;
 }
 
-#home h3 {
-  text-align: center;
-  margin: 1rem 0 0;
-}
-
-.contact-list-item-p {
-  margin-bottom: 0;
+#header-opener-title {
+  margin-top: 1rem;
 }
 
 .contact-list {
@@ -119,7 +115,7 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: left;
-  margin: 0.5rem 0;
+  margin-bottom: 0.5rem;
 }
 
 .contact-list-item a {
@@ -164,13 +160,11 @@ li {
 /*             About             */
 /* ============================= */
 .quote-block {
-  background-color: #dbdbdb;
-  background-color: #e7e6df;
-  background-color: #ffffff;
+  background-color: var(--color-primary);
   padding: 1rem;
   border-radius: 1rem;
   margin-bottom: 1rem;
-  box-shadow: 0px 5px 20px #858585;
+  box-shadow: 0px 5px 15px #a0a0a0;
 }
 
 .quote-paragraph {
@@ -189,16 +183,17 @@ li {
   padding: 5.5rem 0 0;
 }
 
-.service-wrapper h4 {
-  margin: 1rem 0;
-  font-size: 1.1rem;
-}
-
 .service-title {
   text-align: center;
   padding-bottom: 0.5rem;
   border-bottom: solid 0.3rem var(--color-green);
+  margin-bottom: 0.8rem;
 }
+
+.service-wrapper h4 {
+  font-size: 1.1rem;
+}
+
 
 .purchase-button {
   background-color: var(--color-green);
@@ -207,8 +202,8 @@ li {
   border-radius: 0.7rem;
   display: block;
   width: 16rem;
-  box-shadow: 0px 5px 20px #858585;
-  margin: 1rem auto;
+  box-shadow: 0px 5px 15px #a0a0a0;
+  margin: 2rem auto;
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -268,10 +263,15 @@ footer p {
   }
 
   .quote-block {
-    margin-top: 2rem;
+    margin: 2rem auto 0rem;
+    width: 30rem;
   }
 
   /* adding hover effects */
+  #navbar-brand a:hover {
+    color: var(--color-green);
+  }
+
   .contact-list-item a:hover {
     color: var(--color-hover);
   }
@@ -281,14 +281,24 @@ footer p {
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .section-wrapper {
     padding: 3rem;
+  }
+
+  .carousel-body {
+    width: 35rem;
+  }
+
+  .carousel-overlay-image {
+    height: 20rem;
+  }
+
+  .quote-block {
+    width: 35rem;
   }
 }
 
 @media (min-width: 1000px) {
   /* some epic styling here */
 }
-
-/* TODO: fix issue where About section title is half visible when visited through nav */

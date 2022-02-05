@@ -42,16 +42,14 @@ const About = () => {
             born and raised in <span className='special'>Miami</span>.
           </p>
           <p className='quote-paragraph'>
-            Recently, our previous mascot&nbsp;
-            <span className='special'>Fraiser</span>, a Jack Russel terrier,
+            Recently, our previous mascot Fraiser, a Jack Russel terrier,
             sadly passed away. Fraiser was a&nbsp;
             <span className='special'>customer favorite</span> who came to work
             with us every day for 17 years. Fraiser even received Christmas
             cards from customers and some would&nbsp;
             <span className='special'>stop in just to say hello</span> to him or
-            bring him a dog biscuit. Today, we have a cockapoo named&nbsp;
-            <span className='special'>Bella</span> who loves greeting
-            customers!"
+            bring him a dog biscuit. Today, we have a cockapoo named Bella who
+            loves greeting customers!"
           </p>
           <p className='quote-author'>
             - <span className='special'>Randy McPherson</span>, head of
@@ -64,12 +62,10 @@ const About = () => {
             "Our business is decorated with antique signs and neon clocks. Many
             of our customers have told us that our workshop feels like they have
             been transported back in time! Over the years, we've had a few
-            antique cars, such as a&nbsp;
-            <span className='special'>1935 Ford truck</span>,&nbsp;
-            <span className='special'>1954 Packard convertible</span>,&nbsp;
-            <span className='special'>1936 Ford Phaeton convertible</span>, and
-            currently a <span className='special'>2002 Mini Cooper</span>. We
-            try to keep current with the changing trends by attending SEMA,
+            antique cars, such as a 1935 Ford truck, 1954 Packard convertible,
+            1936 Ford Phaeton convertible, and currently a 2002 Mini Cooper. We
+            try to keep current with the changing trends by attending
+            SEMA,&nbsp;
             <span className='special'>
               Specialty Equipment Market Association
             </span>
@@ -88,8 +84,10 @@ const About = () => {
             <span className='special'>comfortable</span> working on a Toyota
             Camry as well a brand new Ferrari. The common denominator is that
             all customers and jobs are treated with the&nbsp;
-            <span className='special'>same level of respect</span> and&nbsp;
-            <span className='special'>attention to detail</span>. We can build a
+            <span className='special'>
+              same level of respect and attention to detail
+            </span>
+            . We can build a&nbsp;
             <span className='special'>complete interior</span>, including new
             seat upholstery, headliner, door panels, carpet, convertible top,
             and dashboard. On the other hand, you may only need us to change one

@@ -10,6 +10,10 @@ const imagesList = [
     title: 'Leather Dodge Viper seats',
   },
   {
+    image: './assets/services-images/seats-images/seat-16.jpg',
+    title: '2015 Honda Civic complete interior transformation',
+  },
+  {
     image: './assets/services-images/seats-images/seat-3.jpg',
     title: 'Leather Honda Element seats',
   },
@@ -39,7 +43,7 @@ const imagesList = [
   },
   {
     image: './assets/services-images/seats-images/seat-10.jpg',
-    title: 'Complete 2-tone interior',
+    title: '1968 Newport two tone interior',
   },
   {
     image: './assets/services-images/seats-images/seat-11.jpg',

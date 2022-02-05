@@ -24,29 +24,21 @@ const Contact = () => {
         <ul className='contact-list'>
           <li className='contact-list-item'>
             <FaHome className='contact-list-item-icon' />
-            <p className='contact-list-item-p'>
-              <span className='special'>Location:</span> 2040 NE 154 St, North
-              Miami, Florida
-            </p>
+            <span className='special'>Location:</span> &nbsp;2040 NE 154 St,
+            North Miami, FL 33162
           </li>
           <li className='contact-list-item'>
             <FaClock className='contact-list-item-icon' />
-            <p className='contact-list-item-p'>
-              <span className='special'>Business Hours:</span> 7 AM - 5 PM
-              Monday - Friday
-            </p>
+            <span className='special'>Business Hours:</span> &nbsp;7 AM - 5 PM
+            Monday - Friday
           </li>
           <li className='contact-list-item'>
             <FaEnvelopeSquare className='contact-list-item-icon' />
-            <p className='contact-list-item-p'>
-              <span className='special'>Email:</span> shamrocktrim@aol.com
-            </p>
+            <span className='special'>Email:</span> &nbsp;shamrocktrim@aol.com
           </li>
           <li className='contact-list-item'>
             <FaPhoneSquareAlt className='contact-list-item-icon' />
-            <p className='contact-list-item-p'>
-              <span className='special'>Phone:</span> (305) 944-3621
-            </p>
+            <span className='special'>Phone:</span> &nbsp;(305) 944-3621
           </li>
         </ul>
 
@@ -75,8 +67,8 @@ const Contact = () => {
             </a>
           </li>
           <li className='contact-list-item'>
-            <FaInstagramSquare className='contact-list-item-icon' /> Follow us on
-            Instagram&nbsp;
+            <FaInstagramSquare className='contact-list-item-icon' /> Follow us
+            on Instagram&nbsp;
             <a
               href='https://www.instagram.com/shamrockautotrim/'
               target='_blank'

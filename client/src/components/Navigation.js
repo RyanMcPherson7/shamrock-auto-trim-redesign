@@ -12,7 +12,7 @@ const Navigation = () => {
         collapseOnSelect
       >
         <Navbar.Brand id='navbar-brand'>
-          <a href='index.html'>Shamrock Auto Trim</a>
+          <a href='/'>Shamrock Auto Trim</a>
         </Navbar.Brand>
 
         <Navbar.Toggle id='navbar-toggle' />
