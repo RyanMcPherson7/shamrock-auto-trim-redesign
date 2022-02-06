@@ -5,7 +5,6 @@ const Navigation = () => {
     <>
       <Navbar
         id='navbar-container'
-        bg='dark'
         variant='dark'
         fixed='top'
         expand='md'
@@ -15,8 +14,8 @@ const Navigation = () => {
           <a href='/'>Shamrock Auto Trim</a>
         </Navbar.Brand>
 
-        <Navbar.Toggle id='navbar-toggle' />
-        <Navbar.Collapse>
+        <Navbar.Toggle id='navbar-toggle-button' />
+        <Navbar.Collapse id='navbar-links-container'>
           <Nav>
             <Nav.Link href='#home'>Home</Nav.Link>
             <Nav.Link href='#about'>About</Nav.Link>

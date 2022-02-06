@@ -57,7 +57,7 @@ const LamborghiniTonneauCover = () => {
               &nbsp; in his car to fold the top.
             </p> */}
             <p className='quote-paragraph'>
-              There were a few companies that tried to build a carbon fiber
+              "There were a few companies that tried to build a carbon fiber
               roof, but when customers gave deposits, they usually lost their
               deposit money and received nothing in return. Irv David, owner of
               Prestige Imports, now Lamborghini of Miami and Palm Beach,
@@ -79,7 +79,7 @@ const LamborghiniTonneauCover = () => {
               . It was a proud moment for our business and family. We agreed to
               give Mr. David's Lamborghini dealership the exclusive right to
               sell our cover at his dealerships as well as online. We are now
-              allowed to sell directly to the public.
+              allowed to sell directly to the public."
             </p>
             {/* <p className='quote-paragraph'>
               We build the cover using Hartz Stayfast black cloth. This material
