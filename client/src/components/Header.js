@@ -158,7 +158,7 @@ const Header = () => {
           <span className='special'>since 1968</span>. Have a look around!
         </p>
 
-        <div className='flex-content-wrapper'>
+        <div className='flex-content-wrapper' id='header-main-content'>
           <div className='center-carousel-wrapper'>
             <ImagesCarousel imagesList={imagesList} />
           </div>
@@ -185,8 +185,8 @@ const Header = () => {
             <h2 className='service-title'>Keep in Touch</h2>
             <ul className='contact-list'>
               <li className='contact-list-item'>
-                <FaFlickr className='contact-list-item-icon' /> View our Flickr
-                photo gallery&nbsp;
+                <FaFlickr className='contact-list-item-icon' />
+                View our Flickr photo gallery&nbsp;
                 <a
                   href='https://www.flickr.com/photos/shamrockride/'
                   target='_blank'
