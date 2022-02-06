@@ -105,7 +105,7 @@ li {
   padding: 0;
   display: flex;
   flex-direction: column;
-  max-width: 26rem;
+  max-width: 24rem;
   margin: 0 auto;
 }
 
@@ -313,7 +313,7 @@ footer p {
   }
 }
 
-@media (min-width: 1100px) and (min-height: 900px) {
+@media (min-width: 1100px) and (min-height: 850px) {
   #navbar-container {
     text-align: center;
   }
@@ -332,17 +332,17 @@ footer p {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1200px) {
   #home {
     height: 100vh;
   }
 
   #header-opener-title {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 
   #header-main-content {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 
   #home p {
@@ -353,6 +353,10 @@ footer p {
     max-width: 50rem;
   }
 
+  .quote-block {
+    width: auto;
+  }
+
   .section-title {
     font-size: 3.5rem;
   }
@@ -360,7 +364,7 @@ footer p {
   .flex-content-wrapper {
     display: flex;
     flex-direction: row;
-    max-width: 1100px;
+    max-width: 1200px;
     gap: 2rem;
     margin: 0 auto;
   }
@@ -378,6 +382,16 @@ footer p {
 
   .purchase-button {
     margin-bottom: 0;
+  }
+
+
+  .carousel-body {
+    width: 40rem;
+    height: 25rem;
+  }
+
+  .carousel-overlay-image {
+    height: 25rem;
   }
 
 }
