@@ -26,7 +26,7 @@ const Contact = () => {
             <FaHome className='contact-list-item-icon' />
             <div>
               <span className='special'>Location:</span>&nbsp;2040 NE 154 St,
-              North Miami, FL 33162
+              North Miami Beach, FL 33162
             </div>
           </li>
           <li className='contact-list-item'>
