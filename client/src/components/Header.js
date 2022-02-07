@@ -158,7 +158,11 @@ const Header = () => {
           <span className='special'>since 1968</span>. Have a look around!
         </p>
 
-        <div className='flex-content-wrapper' id='header-main-content'>
+        <div
+          className='flex-content-wrapper'
+          id='header-main-content'
+          style={{ maxWidth: '1200px' }}
+        >
           <div className='center-carousel-wrapper'>
             <ImagesCarousel imagesList={imagesList} />
           </div>

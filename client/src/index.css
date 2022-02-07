@@ -320,7 +320,7 @@ footer p {
   }
 }
 
-@media (min-width: 1100px) and (min-height: 850px) {
+@media (min-width: 1300px) and (min-height: 900px) {
   #scroll-down-button-wrapper {
     display: flex;
     justify-content: center;
@@ -335,7 +335,7 @@ footer p {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   #home {
     height: 100vh;
   }
@@ -367,7 +367,7 @@ footer p {
   .flex-content-wrapper {
     display: flex;
     flex-direction: row;
-    max-width: 1200px;
+    max-width: 1300px;
     gap: 2rem;
     margin: 0 auto;
   }
@@ -384,6 +384,7 @@ footer p {
   }
 
   .purchase-button {
+    margin-top: 1.2rem;
     margin-bottom: 0;
   }
 
