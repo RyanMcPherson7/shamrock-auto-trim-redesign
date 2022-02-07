@@ -2,13 +2,16 @@
   --color-primary: #ffffff;
   --color-secondary: #212529;
   --color-green: #06a77d;
-  --color-hover: #0021df;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: var(--color-primary) !important;
 }
 
 p {
@@ -194,7 +197,7 @@ li {
 }
 
 .purchase-button {
-  background-color: var(--color-green);
+  background-color: var(--color-secondary);
   border: none;
   padding: 0.8rem 1.2rem;
   border-radius: 0.7rem;
@@ -202,7 +205,7 @@ li {
   width: 16rem;
   box-shadow: 0px 5px 15px #a3b0bd;
   margin: 2rem auto;
-  transition: background-color 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .purchase-button a {
@@ -277,11 +280,12 @@ footer p {
   }
 
   .contact-list-item a:hover {
-    color: var(--color-hover);
+    color: var(--color-secondary);
   }
 
   .purchase-button:hover {
-    background-color: var(--color-hover);
+    background-color: var(--color-green);
+    transform: translateY(-4px);
   }
 }
 
