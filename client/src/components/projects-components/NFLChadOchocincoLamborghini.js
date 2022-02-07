@@ -32,7 +32,7 @@ const NFLChadOchocincoLamborghini = () => {
   return (
     <ProjectBase
       idInput='nfl-chad-ochocinco-lamborghini'
-      title={`NFL Chad Ochicinco's Lamborghini`}
+      title={`NFL Chad Ochocinco's Lamborghini`}
       jobDescription={`Shamrock replaced NFL superstar Chad Ochocinco's leather interior which was damaged by water.
       `}
       imagesList={imagesList}
