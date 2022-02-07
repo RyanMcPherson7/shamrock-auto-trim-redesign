@@ -23,7 +23,7 @@ const Headliners = () => {
           </div>
 
           <div className='quote-block'>
-            {/* <p className='quote-paragraph'>
+            <p className='quote-paragraph'>
               "Almost every automobile, from a Kia Rio to a Bentley Continental
               GT has something in common. The car manufacturers have decided to
               install a hard headliner board, which is made out of cardboard or
@@ -39,7 +39,7 @@ const Headliners = () => {
               carefully take the hard headliner board out of the car. Then the
               board is cleaned and prepared with solvent. The next step is to
               glue new finished material and foam to the hard headliner board.
-            </p> */}
+            </p>
             <p className='quote-paragraph'>
               "Shamrock stocks the <span className='special'>new materials</span>
               &nbsp; and in most cases, you can&nbsp;

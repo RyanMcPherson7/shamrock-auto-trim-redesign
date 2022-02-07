@@ -2,16 +2,16 @@ import ProjectBase from './ProjectBase';
 
 const imagesList = [
   {
+    image: './assets/projects-images/nfl-ronnie-brown-chevy-images/brown-5.jpg',
+    title: `Complete leather interior with black welt and embroidered player's number`,
+  },
+  {
     image: './assets/projects-images/nfl-ronnie-brown-chevy-images/brown-2.jpg',
     title: 'Original white interior',
   },
   {
     image: './assets/projects-images/nfl-ronnie-brown-chevy-images/brown-1.jpg',
     title: 'Fabricated new door panels',
-  },
-  {
-    image: './assets/projects-images/nfl-ronnie-brown-chevy-images/brown-5.jpg',
-    title: 'Black welt, embroidered numbers, leather',
   },
   {
     image: './assets/projects-images/nfl-ronnie-brown-chevy-images/brown-6.jpg',

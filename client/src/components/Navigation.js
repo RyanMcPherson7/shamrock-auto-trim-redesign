@@ -39,6 +39,9 @@ const Navigation = () => {
               <NavDropdown.Item href='#2fast2furious-movie-cars'>
                 2Fast2Furious Movie Cars
               </NavDropdown.Item>
+              <NavDropdown.Item href='#birthday-corvet'>
+                72nd Birthday Surprise: a Restomod 1962 Corvette
+              </NavDropdown.Item>
               <NavDropdown.Item href='#lenny-kravitz-cadillac'>
                 Lenny Kravitz's Cadillac
               </NavDropdown.Item>
@@ -50,9 +53,6 @@ const Navigation = () => {
               </NavDropdown.Item>
               <NavDropdown.Item href='#corporate-designs'>
                 Corporate Designs
-              </NavDropdown.Item>
-              <NavDropdown.Item href='#birthday-corvet'>
-                Father's 90th Birthday Surprise - 1962 Corvette
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href='#contact'>Contact</Nav.Link>

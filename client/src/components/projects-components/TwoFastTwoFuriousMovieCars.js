@@ -3,6 +3,11 @@ import ProjectBase from './ProjectBase';
 const imagesList = [
   {
     image:
+      './assets/projects-images/2fast2furious-movie-cars-images/movie-car-3.jpg',
+    title: `2Fast2Furious main characters' cars`,
+  },
+  {
+    image:
       './assets/projects-images/2fast2furious-movie-cars-images/movie-car-16.jpg',
     title: `Brian's 1999 Nissan Skyline GT-R R34`,
   },
@@ -16,12 +21,6 @@ const imagesList = [
       './assets/projects-images/2fast2furious-movie-cars-images/movie-car-2.jpeg',
     title: 'Cadillac driven by 2 thugs where Roman starts a small fire',
   },
-  {
-    image:
-      './assets/projects-images/2fast2furious-movie-cars-images/movie-car-3.jpg',
-    title: `2Fast2Furious main characters' cars`,
-  },
-
   {
     image:
       './assets/projects-images/2fast2furious-movie-cars-images/movie-car-6.jpg',

@@ -43,7 +43,7 @@ const LamborghiniTonneauCover = () => {
           </div>
 
           <div className='quote-block'>
-            {/* <p className='quote-paragraph'>
+            <p className='quote-paragraph'>
               "When Lamborghini built the Murcielago Roadster, they had a single
               mission, build it fast. With that in mind, their main focus was
               engine performance. Lamborghini ran out of room in the engine
@@ -55,7 +55,7 @@ const LamborghiniTonneauCover = () => {
                 you needed a Lamborghini technician to follow you
               </span>
               &nbsp; in his car to fold the top.
-            </p> */}
+            </p>
             <p className='quote-paragraph'>
               "There were a few companies that tried to build a carbon fiber
               roof, but when customers gave deposits, they usually lost their
@@ -81,7 +81,7 @@ const LamborghiniTonneauCover = () => {
               sell our cover at his dealerships as well as online. We are now
               allowed to sell directly to the public."
             </p>
-            {/* <p className='quote-paragraph'>
+            <p className='quote-paragraph'>
               We build the cover using Hartz Stayfast black cloth. This material
               is a three ply composite made of an acrylic weave outer fabric, a
               rubber inner layer, and a cotton lining. This material is used as
@@ -93,7 +93,7 @@ const LamborghiniTonneauCover = () => {
               a soft pad to protect the front mirrors and paint from direct
               contact with the front straps. The cover can be installed in
               minutes!"
-            </p> */}
+            </p>
             <p className='quote-author'>
               - <span className='special'>Randy McPherson</span>, head of
               operations
