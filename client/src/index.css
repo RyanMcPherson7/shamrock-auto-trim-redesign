@@ -108,7 +108,7 @@ li {
   padding: 0;
   display: flex;
   flex-direction: column;
-  max-width: 24rem;
+  max-width: 28rem;
   margin: 0 auto;
 }
 
@@ -364,11 +364,16 @@ footer p {
     font-size: 3.5rem;
   }
 
+  .service-description {
+    font-size: 1.3rem !important;
+    
+  }
+
   .flex-content-wrapper {
     display: flex;
     flex-direction: row;
     max-width: 1300px;
-    gap: 2rem;
+    gap: 1.2rem;
     margin: 0 auto;
   }
 
