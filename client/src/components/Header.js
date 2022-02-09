@@ -153,9 +153,9 @@ const Header = () => {
           Shamrock Auto Trim
         </h2>
         <p className='service-description'>
-          Hi! We are a <span className='special'> family owned business</span>
-          &nbsp;specializing in automotive interiors and convertible tops&nbsp;
-          <span className='special'>since 1968</span>. Have a look around!
+          Hi! We are a <span className='special'>family owned business </span>
+          specializing in automotive interiors and convertible tops
+          <span className='special'> since 1968</span>. Have a look around!
         </p>
 
         <div
