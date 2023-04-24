@@ -37,7 +37,7 @@ const LamborghiniTonneauCover = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Buy Parking Cover ($900.00)
+                Buy Parking Cover ($1200.00)
               </a>
             </button>
           </div>
